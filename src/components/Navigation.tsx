@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navigation = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,8 +23,13 @@ const Navigation = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <Link href="/" className="flex items-center">
-                            <div className="h-8 w-8 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
-                                <span className="text-white font-bold text-sm">Z</span>
+                            <div className="h-10 w-10 relative mr-3">
+                                <Image
+                                    src="/phatngocanhlogo.jpg"
+                                    alt="Phát Ngọc Anh Logo"
+                                    fill
+                                    className="object-contain rounded-lg"
+                                />
                             </div>
                             <div className="hidden sm:block">
                                 <h1 className="text-xl font-bold text-gray-900">Zifat 999</h1>

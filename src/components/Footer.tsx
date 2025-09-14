@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -22,7 +23,7 @@ const Footer = () => {
         ],
         services: [
             { name: 'Dịch vụ tư vấn', href: '/services#consulting' },
-            { name: 'Kiểm nghiệm sản phẩm', href: '/testing' },
+            { name: 'Kiểm nghiệm sản phẩm', href: '/certifications' },
             { name: 'Giao hàng tận nơi', href: '/services#delivery' },
             { name: 'Bảo hành sản phẩm', href: '/services#warranty' },
             { name: 'Hỗ trợ kỹ thuật', href: '/services#support' }
@@ -51,8 +52,13 @@ const Footer = () => {
                     {/* Company Info */}
                     <div className="lg:col-span-2">
                         <div className="flex items-center mb-4">
-                            <div className="h-10 w-10 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
-                                <span className="text-white font-bold text-lg">Z</span>
+                            <div className="h-12 w-12 relative mr-3">
+                                <Image
+                                    src="/phatngocanhlogo.jpg"
+                                    alt="Phát Ngọc Anh Logo"
+                                    fill
+                                    className="object-contain rounded-lg"
+                                />
                             </div>
                             <div>
                                 <h3 className="text-xl font-bold">Zifat 999</h3>
