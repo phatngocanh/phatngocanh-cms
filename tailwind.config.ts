@@ -12,6 +12,10 @@ const config: Config = {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
             },
+            fontFamily: {
+                'inter': ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
+                'sans': ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
+            },
             container: {
                 center: true, // Center the container
                 screens: {

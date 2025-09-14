@@ -1,5 +1,14 @@
 import "./globals.css";
 
+import { Inter } from 'next/font/google';
+
+// Configure Inter font with Vietnamese subset
+const inter = Inter({
+    subsets: ['latin', 'vietnamese'],
+    display: 'swap',
+    variable: '--font-inter',
+});
+
 export const metadata = {
     title: "Công Ty TNHH Hóa Phẩm Phát Ngọc Anh - Zifat 999 | Chất Tẩy Rửa Chuyên Nghiệp",
     description: "Công ty chuyên sản xuất và phân phối các sản phẩm hóa chất tẩy rửa chuyên nghiệp: chất thông cống, chất tẩy rửa đa năng, nước rửa chén. Thương hiệu Zifat 999 uy tín, chất lượng cao.",
@@ -21,7 +30,11 @@ export const metadata = {
         title: "Công Ty TNHH Hóa Phẩm Phát Ngọc Anh - Zifat 999",
         description: "Chuyên sản xuất và phân phối các sản phẩm hóa chất tẩy rửa chuyên nghiệp chất lượng cao",
     },
-    viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport = {
+    width: "device-width",
+    initialScale: 1,
     themeColor: "#1e40af",
 };
 
@@ -64,7 +77,7 @@ export default function RootLayout({
                     }}
                 />
             </head>
-            <body className="antialiased">{children}</body>
+            <body className={`${inter.variable} font-inter antialiased`}>{children}</body>
         </html>
     );
 }
