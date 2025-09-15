@@ -70,10 +70,52 @@ export default function BlogPostClient({ article, relatedArticles }: BlogPostCli
     };
 
     const renderContent = (content: string) => {
-        return content.split('\n\n').map((paragraph, index) => {
+        // Normalize line endings and split content into blocks
+        const normalizedContent = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+        
+        // Split by double newlines, but also handle single newlines for lists
+        const blocks = normalizedContent.split('\n\n');
+        
+        // Process blocks to handle cases where lists might be separated incorrectly
+        const processedBlocks: string[] = [];
+        
+        for (let i = 0; i < blocks.length; i++) {
+            const block = blocks[i];
+            const lines = block.split('\n');
+            
+            // Check if this block contains mixed content (headings + lists)
+            const hasHeading = lines.some(line => /^#{1,4}\s/.test(line.trim()));
+            const hasList = lines.some(line => line.trim().startsWith('- '));
+            
+            if (hasHeading && hasList) {
+                // Split heading and list into separate blocks
+                let currentBlock = '';
+                for (const line of lines) {
+                    if (/^#{1,4}\s/.test(line.trim()) && currentBlock) {
+                        processedBlocks.push(currentBlock.trim());
+                        currentBlock = line;
+                    } else if (line.trim().startsWith('- ') && currentBlock && !currentBlock.includes('- ')) {
+                        processedBlocks.push(currentBlock.trim());
+                        currentBlock = line;
+                    } else {
+                        currentBlock += (currentBlock ? '\n' : '') + line;
+                    }
+                }
+                if (currentBlock) {
+                    processedBlocks.push(currentBlock.trim());
+                }
+            } else {
+                processedBlocks.push(block);
+            }
+        }
+        
+        return processedBlocks.map((block, index) => {
+            const trimmedBlock = block.trim();
+            if (!trimmedBlock) return null;
+
             // Handle images
-            if (paragraph.startsWith('![') && paragraph.includes('](')) {
-                const imageMatch = paragraph.match(/!\[(.*?)\]\((.*?)\)/);
+            if (trimmedBlock.startsWith('![') && trimmedBlock.includes('](')) {
+                const imageMatch = trimmedBlock.match(/!\[(.*?)\]\((.*?)\)/);
                 if (imageMatch) {
                     const [, alt, src] = imageMatch;
                     return (
@@ -97,88 +139,171 @@ export default function BlogPostClient({ article, relatedArticles }: BlogPostCli
                 }
             }
             
+            // Handle tables
+            if (trimmedBlock.includes('|') && trimmedBlock.includes('---')) {
+                const rows = trimmedBlock.split('\n').filter(row => row.trim());
+                if (rows.length >= 2 && rows[1].includes('---')) {
+                    const headers = rows[0].split('|').map(h => h.trim()).filter(h => h);
+                    const dataRows = rows.slice(2).map(row => 
+                        row.split('|').map(cell => cell.trim()).filter(cell => cell)
+                    );
+                    
+                    return (
+                        <div key={index} className="my-6 overflow-x-auto">
+                            <table className="w-full border-collapse border border-gray-300">
+                                <thead className="bg-gray-50">
+                                    <tr>
+                                        {headers.map((header, i) => (
+                                            <th key={i} className="border border-gray-300 px-4 py-2 text-left font-semibold">
+                                                {renderInlineFormatting(header)}
+                                            </th>
+                                        ))}
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {dataRows.map((row, i) => (
+                                        <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                                            {row.map((cell, j) => (
+                                                <td key={j} className="border border-gray-300 px-4 py-2">
+                                                    {renderInlineFormatting(cell)}
+                                                </td>
+                                            ))}
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    );
+                }
+            }
+            
             // Handle markdown headings
-            if (paragraph.startsWith('# ')) {
+            if (trimmedBlock.startsWith('# ')) {
                 return (
                     <h1 key={index} className="text-4xl font-bold text-gray-900 mt-12 mb-6">
-                        {paragraph.replace(/^# /, '')}
+                        {renderInlineFormatting(trimmedBlock.replace(/^# /, ''))}
                     </h1>
                 );
             }
             
-            if (paragraph.startsWith('## ')) {
+            if (trimmedBlock.startsWith('## ')) {
                 return (
                     <h2 key={index} className="text-3xl font-bold text-gray-900 mt-10 mb-5">
-                        {paragraph.replace(/^## /, '')}
+                        {renderInlineFormatting(trimmedBlock.replace(/^## /, ''))}
                     </h2>
                 );
             }
             
-            if (paragraph.startsWith('### ')) {
+            if (trimmedBlock.startsWith('### ')) {
                 return (
                     <h3 key={index} className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                        {paragraph.replace(/^### /, '')}
+                        {renderInlineFormatting(trimmedBlock.replace(/^### /, ''))}
                     </h3>
                 );
             }
             
-            if (paragraph.startsWith('#### ')) {
+            if (trimmedBlock.startsWith('#### ')) {
                 return (
                     <h4 key={index} className="text-xl font-bold text-gray-900 mt-6 mb-3">
-                        {paragraph.replace(/^#### /, '')}
+                        {renderInlineFormatting(trimmedBlock.replace(/^#### /, ''))}
                     </h4>
                 );
             }
             
-            // Handle lists
-            if (paragraph.includes('\n- ') || paragraph.startsWith('- ')) {
-                const listItems = paragraph.split('\n').filter(line => line.startsWith('- '));
-                const nonListContent = paragraph.split('\n').filter(line => !line.startsWith('- ')).join('\n');
+            // Handle lists (improved) - Check for any line that starts with "- "
+            const lines = trimmedBlock.split('\n');
+            const hasListItems = lines.some(line => line.trim().startsWith('- '));
+            
+            if (hasListItems) {
+                const listItems = lines.filter(line => line.trim().startsWith('- '));
+                const nonListLines = lines.filter(line => !line.trim().startsWith('- ') && line.trim());
                 
                 return (
-                    <div key={index} className="mb-4">
-                        {nonListContent && (
-                            <p className="text-gray-700 leading-relaxed mb-3">
-                                {nonListContent.split('**').map((part, partIndex) => {
-                                    if (partIndex % 2 === 1) {
-                                        return <strong key={partIndex} className="font-semibold text-gray-900">{part}</strong>;
-                                    }
-                                    return part;
-                                })}
-                            </p>
+                    <div key={index} className="mb-6">
+                        {nonListLines.length > 0 && (
+                            <div className="mb-3">
+                                {nonListLines.map((line, i) => (
+                                    <p key={i} className="text-gray-700 leading-relaxed mb-2">
+                                        {renderInlineFormatting(line.trim())}
+                                    </p>
+                                ))}
+                            </div>
                         )}
-                        <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
-                            {listItems.map((item, itemIndex) => (
-                                <li key={itemIndex} className="leading-relaxed">
-                                    {item.replace(/^- /, '').split('**').map((part, partIndex) => {
-                                        if (partIndex % 2 === 1) {
-                                            return <strong key={partIndex} className="font-semibold text-gray-900">{part}</strong>;
-                                        }
-                                        return part;
-                                    })}
-                                </li>
-                            ))}
-                        </ul>
+                        {listItems.length > 0 && (
+                            <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                                {listItems.map((item, itemIndex) => {
+                                    const itemText = item.replace(/^[\s]*- /, '').trim();
+                                    return (
+                                        <li key={itemIndex} className="leading-relaxed">
+                                            {renderInlineFormatting(itemText)}
+                                        </li>
+                                    );
+                                })}
+                            </ul>
+                        )}
+                    </div>
+                );
+            }
+            
+            // Handle numbered lists
+            if (/^\d+\./.test(trimmedBlock) || trimmedBlock.includes('\n1.') || trimmedBlock.includes('\n2.')) {
+                const lines = trimmedBlock.split('\n');
+                const listItems = lines.filter(line => /^\s*\d+\./.test(line.trim()));
+                const nonListLines = lines.filter(line => !/^\s*\d+\./.test(line.trim()) && line.trim());
+                
+                return (
+                    <div key={index} className="mb-6">
+                        {nonListLines.length > 0 && (
+                            <div className="mb-3">
+                                {nonListLines.map((line, i) => (
+                                    <p key={i} className="text-gray-700 leading-relaxed mb-2">
+                                        {renderInlineFormatting(line.trim())}
+                                    </p>
+                                ))}
+                            </div>
+                        )}
+                        <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
+                            {listItems.map((item, itemIndex) => {
+                                const itemText = item.replace(/^\s*\d+\.\s*/, '').trim();
+                                return (
+                                    <li key={itemIndex} className="leading-relaxed">
+                                        {renderInlineFormatting(itemText)}
+                                    </li>
+                                );
+                            })}
+                        </ol>
                     </div>
                 );
             }
             
             // Handle regular paragraphs
-            if (paragraph.trim()) {
+            if (trimmedBlock) {
                 return (
                     <p key={index} className="text-gray-700 leading-relaxed mb-4">
-                        {paragraph.split('**').map((part, partIndex) => {
-                            if (partIndex % 2 === 1) {
-                                return <strong key={partIndex} className="font-semibold text-gray-900">{part}</strong>;
-                            }
-                            return part;
-                        })}
+                        {renderInlineFormatting(trimmedBlock)}
                     </p>
                 );
             }
             
             return null;
         }).filter(Boolean);
+    };
+
+    // Helper function to handle inline formatting (bold, italic, etc.)
+    const renderInlineFormatting = (text: string) => {
+        // Handle bold text (**text**)
+        const parts = text.split(/(\*\*[^*]+\*\*)/g);
+        
+        return parts.map((part, index) => {
+            if (part.startsWith('**') && part.endsWith('**')) {
+                return (
+                    <strong key={index} className="font-semibold text-gray-900">
+                        {part.slice(2, -2)}
+                    </strong>
+                );
+            }
+            return part;
+        });
     };
 
     return (

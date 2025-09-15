@@ -1,16 +1,16 @@
 'use client';
 
-import { useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 const Navigation = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navigationItems = [
         { name: 'Trang chủ', href: '/' },
+        { name: 'Về chúng tôi', href: '/about' },
         { name: 'Sản phẩm', href: '/products' },
-        { name: 'Dịch vụ', href: '/services' },
         { name: 'Kiểm nghiệm sản phẩm', href: '/certifications' },
         { name: 'Tin tức', href: '/news' },
         { name: 'Liên hệ', href: '/contact' },

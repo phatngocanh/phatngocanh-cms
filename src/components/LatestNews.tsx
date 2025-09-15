@@ -8,14 +8,14 @@ import articlesData from '@/data/articles.json';
 const LatestNews = () => {
     // Show only featured articles on homepage
     const featuredArticles = articlesData.filter(article => article.featured).slice(0, 3);
-    const recentArticles = articlesData.slice(0, 6);
+    const recentArticles = articlesData.slice(0, 3);
     
-    // Combine featured and recent, remove duplicates, take first 6
+    // Combine featured and recent, remove duplicates, take first 3
     const displayArticles = [...featuredArticles, ...recentArticles]
         .filter((article, index, self) => 
             index === self.findIndex(a => a.id === article.id)
         )
-        .slice(0, 6);
+        .slice(0, 3);
 
     const formatDate = (dateString: string) => {
         const [day, month, year] = dateString.split('/');

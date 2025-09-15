@@ -1,0 +1,809 @@
+{
+  "products": [
+    {
+      "id": "bong-vo-xe-sieu-dac-zifat-999",
+      "name": "Bóng Vỏ Xe Siêu Đặc ZIFAT 999",
+      "description": "Chống rạn nứt, phai màu, tăng độ bóng bẩy trên các bề mặt sơn xe, tableau, da, simili, lốp xe ô tô, mô tô, gỗ, ghế sofa...",
+      "detailedDescription": "Sản phẩm chuyên dụng bảo vệ và làm đẹp các bề mặt:\n• Sơn xe ô tô, xe máy\n• Tableau, da, simili\n• Lốp xe các loại\n• Gỗ, ghế sofa\n\nChống rạn nứt, phai màu và tăng độ bóng bẩy hiệu quả.",
+      "image": "/product-images/bong-vo-xe-sieu-dac-zifat-999.jpg",
+      "images": ["/product-images/bong-vo-xe-sieu-dac-zifat-999.jpg"],
+      "price": "100.000",
+      "volume": null,
+      "category": "automotive",
+      "tags": ["Bóng Xe", "Chăm Sóc Xe", "Làm Bóng"],
+      "features": [
+        "Chống rạn nứt, phai màu",
+        "Tăng độ bóng bẩy",
+        "Phù hợp nhiều bề mặt",
+        "An toàn cho da và simili"
+      ],
+      "usage": "1. Phun dầu bóng xe lên bề mặt cần làm bóng\n2. Lau liền bằng khăn sạch\n3. Để khô tự nhiên để đạt độ bóng tối ưu",
+      "benefits": "• Chống rạn nứt và phai màu hiệu quả\n• Tăng độ bóng bẩy cho bề mặt\n• Phù hợp với nhiều loại vật liệu\n• An toàn cho da và simili\n• Bảo vệ lâu dài",
+      "ingredients": "Gel silicones, Polish oils, fragrance, chất phụ gia.",
+      "storage": "Nơi khô ráo, thoáng mát.",
+      "warnings": "• Không dùng cho tay lái, bàn thắng, bố thắng, cần số\n• Để tránh xa trẻ em và vật nuôi trong nhà\n• Tránh tiếp xúc trực tiếp với da trong thời gian dài",
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+        "id": "nuoc-tay-may-cao-cap-zifat-999",
+        "name": "Nước Tẩy Máy Cao Cấp ZIFAT 999",
+        "description": "Tẩy nhanh, sạch các loại dầu nhớt công nghiệp khó lau chùi và bám dính trên nhiều loại bề mặt khác nhau.",
+        "detailedDescription": "Sản phẩm chuyên dụng tẩy dầu nhớt công nghiệp hiệu quả trên nhiều bề mặt:\n• Sơn xe, máy móc công nghiệp\n• Thiết bị điện tử, đồ gia dụng\n• Quần áo, gạch men, tủ nhôm\n• An toàn, không làm hỏng bề mặt",
+        "image": "/product-images/nuoc-tay-may-cao-cap-zifat-999-1.jpg",
+        "images": ["/product-images/nuoc-tay-may-cao-cap-zifat-999-1.jpg", "/product-images/nuoc-tay-may-cao-cap-zifat-999-2.jpg"],
+        "price": "60.000",
+        "volume": "600ml",
+        "category": "multi-purpose-cleaner",
+        "tags": ["Tẩy Dầu Mỡ", "Công Nghiệp", "Đa Năng", "Tẩy Máy"],
+        "features": [
+          "Tẩy nhanh các loại dầu nhớt công nghiệp",
+          "Hiệu quả trên nhiều bề mặt khác nhau",
+          "Tẩy được dầu máy dính trên quần áo",
+          "An toàn cho đồ gốm sứ, gạch men"
+        ],
+        "usage": "1. Phun nước tẩy máy cao cấp lên bề mặt vùng bẩn\n2. Sau đó lau lại bằng nước sạch\n3. Dùng khăn vải khô lau lại",
+        "benefits": "• Tẩy nhanh các loại dầu nhớt công nghiệp cứng đầu\n• Hiệu quả trên nhiều loại bề mặt khác nhau\n• Không làm hỏng sơn và vật liệu\n• Tiết kiệm thời gian và công sức\n• An toàn cho người sử dụng",
+        "ingredients": "Nước, Detergent, Grease cutter, NP9",
+        "storage": "Bảo quản nơi khô ráo, thoáng mát.",
+        "warnings": "• Để xa tầm tay trẻ em\n• Rửa ngay bằng nước khi bị văng vào mắt",
+        "specifications": {
+          "Chất hoạt động bề mặt": "min 10% KL",
+          "Độ pH": "8-10",
+          "Hàm lượng chất không tan trong nước": "max 0.1% KL"
+        },
+        "isFeatured": true,
+        "inStock": true
+    },
+    {
+        "id": "nuoc-tay-gach-men-su-zifat-999",
+        "name": "Nước Tẩy Gạch Men, Sứ - ZIFAT 999",
+        "description": "Tẩy trắng ngay lập tức mọi vết bẩn trên bề mặt gạch men, đường và sứ vệ sinh, giữ sáng đẹp như mới.",
+        "detailedDescription": "Sản phẩm chuyên dụng tẩy trắng ngay lập tức mọi vết bẩn trên bề mặt gạch men, đường ron và sứ vệ sinh. Khử sạch vi khuẩn gây bệnh, không gây tắc bồn cầu và giữ cho các bề mặt sáng đẹp như mới.",
+        "image": "/product-images/nuoc-tay-gach-men-su-zifat-999-1.jpg",
+        "images": ["/product-images/nuoc-tay-gach-men-su-zifat-999-1.jpg", "/product-images/nuoc-tay-gach-men-su-zifat-999-2.jpg"],
+        "price": "38.000",
+        "volume": "960ml",
+        "category": "multi-purpose-cleaner",
+        "tags": ["Tẩy Gạch Men", "Vệ Sinh", "Khử Khuẩn", "Tẩy Trắng"],
+        "features": [
+          "Tẩy trắng ngay lập tức mọi vết bẩn",
+          "Hiệu quả trên gạch men, đường ron và sứ vệ sinh",
+          "Khử sạch vi khuẩn gây bệnh",
+          "Không gây tắc bồn cầu",
+          "Giữ bề mặt sáng đẹp như mới"
+        ],
+        "usage": "1. Hòa tan sản phẩm với tỷ lệ 1:3, hoặc dùng trực tiếp dung dịch lên bề mặt cần rửa\n2. Chờ khoảng 1-2 phút\n3. Dùng nước kết hợp cây lau nhà, chổi cọ để rửa vết bẩn",
+        "benefits": "• Tẩy trắng ngay lập tức, hiệu quả cao\n• Khử sạch vi khuẩn gây bệnh\n• Không gây tắc bồn cầu\n• An toàn cho hệ thống thoát nước\n• Giữ bề mặt sáng bóng lâu dài",
+        "ingredients": "Hydrochioric, Ethoxylated alcohol",
+        "storage": "Bảo quản nơi khô ráo, thoáng mát.",
+        "warnings": "Tránh để dung dịch tiếp xúc với da.",
+        "isFeatured": false,
+        "inStock": true
+    },
+    {
+      "id": "dau-bong-go-zifat-999",
+      "name": "Dầu Bóng Gỗ ZIFAT 999",
+      "description": "Nước lau sạch bóng ghế da SIMILI đa năng, chống rạn nứt phai màu, tăng độ bóng bẩy và làm sạch các bề mặt simili, lốp xe ô tô, mô tô, ghế sofa, sơn xe, tableau và các vật dụng bằng gỗ.",
+      "detailedDescription": "Sản phẩm chuyên dụng làm bóng và bảo vệ đa năng cho nhiều loại bề mặt. Với công thức đặc biệt chứa Gel Silicones và Polish Oils, mang lại hiệu quả vượt trội trong việc chống rạn nứt, phai màu và tăng độ bóng bẩy.",
+      "image": "/product-images/dau-bong-go-zifat-999.jpg",
+      "images": ["/product-images/dau-bong-go-zifat-999.jpg"],
+      "price": null,
+      "volume": null,
+      "category": "polish",
+      "tags": ["Dầu Bóng", "Gỗ", "Simili", "Đa Năng", "Làm Bóng"],
+      "features": [
+        "Chống rạn nứt phai màu",
+        "Tăng độ bóng bẩy",
+        "Làm sạch các bề mặt simili",
+        "Phù hợp lốp xe ô tô, mô tô",
+        "Tốt cho ghế sofa, sơn xe, tableau",
+        "An toàn cho vật dụng bằng gỗ"
+      ],
+      "usage": "1. Dùng nước lau sạch bóng ghế da SIMILI đa năng lên bề mặt cần làm bóng\n2. Chờ 5 phút\n3. Lấy khăn sạch lau lại cho bóng\n\n<strong>Lưu ý:</strong> Nếu vật dụng bằng da thật thì xịt vào khăn rồi lau vào chỗ dơ, không xịt trực tiếp",
+      "benefits": "• Chống rạn nứt phai màu hiệu quả\n• Tăng độ bóng bẩy cho bề mặt\n• Làm sạch các bề mặt simili, lốp xe\n• Phù hợp với ghế sofa, sơn xe, tableau\n• An toàn cho vật dụng bằng gỗ",
+      "ingredients": "Gel Silicones, Polish Oils, Frangrance, NP9, chất phụ gia.",
+      "storage": "Nơi khô ráo, thoáng mát.",
+      "warnings": "• Không dùng cho tay lái, bàn thắng, bố thắng, cần số\n• Để tránh xa trẻ em và vật nuôi trong nhà\n• Không xịt trực tiếp lên da thật",
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-tay-bon-cau-nha-tam",
+      "name": "Nước Tẩy Bồn Cầu - nhà tắm",
+      "description": "Nước tẩy trắng Javel thông minh ZiFat 999 đánh tan mọi vết ố bẩn vàng trên cổ áo, các loại vải, vết mực, cà ri, dầu mỡ bám vào quần áo.",
+      "detailedDescription": "Nước tẩy trắng Javel thông minh Sifa 999 đánh tan mọi vết ố bẩn vàng trên cổ áo, các loại vải, vết mực, cà ri, dầu mỡ bám vào quần áo. Với công nghệ cải tiến đánh tan vết ố bẩn của nước trái cây, nước tương, trà, cà phê, diệt khuẩn trên quần áo, drap, khăn và các đồ dùng bằng vải. Làm cho các sản phẩm trắng mới và đẹp hơn.\n\nĐặc biệt nước tẩy Javel thông minh SIFA 999 còn có khả năng tẩy trùng và tẩy mùi các vật dụng vệ sinh gia đình, đồ nhựa, đồ sứ, phòng tắm, bồn cầu, bệnh viện, sàn nhà và những bề mặt khác.",
+      "image": "/product-images/nuoc-tay-bon-cau-nha-tam.jpg",
+      "images": ["/product-images/nuoc-tay-bon-cau-nha-tam.jpg"],
+      "price": "38.000",
+      "volume": null,
+      "category": "bathroom-cleaner",
+      "tags": ["Tẩy Trắng", "Bồn Cầu", "Nhà Tắm", "Javel", "Khử Trùng"],
+      "features": [
+        "Đánh tan vết ố bẩn vàng trên vải",
+        "Tẩy vết mực, cà ri, dầu mỡ",
+        "Diệt khuẩn hiệu quả",
+        "Tẩy trùng và khử mùi",
+        "Phù hợp nhiều bề mặt"
+      ],
+      "usage": "Đối với việc tẩy quần áo trắng (không sử dụng cho quần áo màu):\n1. Pha 4 nắp nước tẩy vào 3l nước đã pha sẵn bột giặt hoặc nước giặt\n2. Khuấy cho thật đều rồi cho quần áo vào ngâm 3-5 phút\n3. Sau đó giặt lại bằng nước nhiều lần cho sạch\n\nĐối với vật dụng vệ sinh gia đình và khử trùng:\n1. Pha 5 nắp chai nước tẩy vào 3l nước\n2. Khuấy cho thật đều rồi sử dụng",
+      "benefits": "• Tẩy trắng hiệu quả các vết bẩn cứng đầu\n• Diệt khuẩn và khử trùng toàn diện\n• Tẩy mùi hiệu quả\n• Phù hợp nhiều loại bề mặt\n• Hương thơm táo dễ chịu",
+      "ingredients": "Sodium Hypochloride (5%), Sodium Hydroxide, hương liệu, bảo quản và nước vừa đủ.",
+      "storage": "Bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.",
+      "warnings": "• Không được uống, nếu uống nhầm phải uống thật nhiều nước và đến bác sĩ ngay\n• Để tránh xa tầm tay trẻ em\n• Tránh không để văng vào mắt\n• Không đổ trực tiếp vào quần áo\n• Không sử dụng với vật liệu bằng nhôm\n• Dùng bao tay cao su khi sử dụng dung dịch đậm đặc",
+      "viewCount": 1928,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-rua-chen-zifat-999",
+      "name": "Nước Rửa Chén ZIFAT 999",
+      "description": "Nước rửa chén ZiFat 999 tinh dầu chanh và trà xanh với công thức cải tiến của SP – sạch cực mạnh cùng chiết xuất chanh tươi giúp đánh tan dầu mỡ nhanh gấp 2 lần so với nước rửa chén thường.",
+      "detailedDescription": "Nước rửa chén ZiFat 999 tinh dầu chanh và trà xanh với công thức cải tiến của SP – sạch cực mạnh cùng chiết xuất chanh tươi giúp đánh tan dầu mỡ nhanh gấp 2 lần so với nước rửa chén thường. Sản phẩm giúp rửa sạch các vết dầu mỡ, cà ri và cả mùi tanh bám trên chén đĩa, xoong nồi một cách dễ dàng.\n\nVới tinh dầu chanh tự nhiên và chiết xuất trà xanh, sản phẩm không chỉ làm sạch hiệu quả mà còn mang lại hương thơm dễ chịu, an toàn cho sức khỏe người sử dụng. Công thức đặc biệt giúp bảo vệ da tay, không gây khô ráp hay kích ứng khi sử dụng thường xuyên.",
+      "image": "/product-images/nuoc-rua-chen-zifat-999.jpg",
+      "images": ["/product-images/nuoc-rua-chen-zifat-999.jpg"],
+      "price": null,
+      "volume": null,
+      "category": "dishwashing",
+      "tags": ["Nước Rửa Chén", "Tinh Dầu Chanh", "Trà Xanh", "Đánh Tan Dầu Mỡ", "An Toàn"],
+      "features": [
+        "Đánh tan dầu mỡ nhanh gấp 2 lần",
+        "Tinh dầu chanh tự nhiên",
+        "Chiết xuất trà xanh",
+        "Rửa sạch vết cà ri và mùi tanh",
+        "An toàn cho da tay",
+        "Hương thơm dễ chịu"
+      ],
+      "usage": "1. Cho một lượng nhỏ nước rửa chén vào miếng bọt biển ướt\n2. Chà nhẹ nhang lên bề mặt chén đĩa, xoong nồi\n3. Rửa sạch bằng nước\n4. Để ráo nước trước khi cất giữ\n\n<strong>Lưu ý:</strong> Đối với vết bẩn cứng đầu, có thể ngâm trong nước ấm với nước rửa chén 5-10 phút trước khi chà rửa",
+      "benefits": "• Đánh tan dầu mỡ hiệu quả gấp 2 lần sản phẩm thường\n• Loại bỏ hoàn toàn mùi tanh và vết cà ri\n• Tinh dầu chanh tự nhiên an toàn cho sức khỏe\n• Chiết xuất trà xanh có tác dụng kháng khuẩn tự nhiên\n• Bảo vệ da tay, không gây khô ráp\n• Hương thơm tự nhiên dễ chịu\n• Tiết kiệm, chỉ cần một lượng nhỏ đã có hiệu quả cao",
+      "ingredients": "Water, LAS.SLES.C.D.E, hương chanh thiên nhiên.",
+      "storage": "Lưu trữ nơi khô ráo, tránh ánh nắng trực tiếp.",
+      "warnings": "• Không được uống, để xa tầm tay của trẻ em\n• Nếu sản phẩm dính vào mắt, rửa sạch bằng nước\n• Nếu nuốt phải, uống ngay 2 ly nước hoặc sữa, nếu cần thì đến cơ sở y tế",
+      "specifications": {
+        "pH": "6-8"
+      },
+      "viewCount": 1955,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-rua-chen-850ml-zifat-999",
+      "name": "Nước Rửa Chén 850ml ZIFAT 999",
+      "description": "Nước rửa chén 850ML ZiFat 999 tinh dầu chanh và trà xanh với công thức cải tiến của SP – sạch cực mạnh cùng chiết xuất chanh tươi giúp đánh tan dầu mỡ nhanh gấp 2 lần so với nước rửa chén thường.",
+      "detailedDescription": "Nước rửa chén 850ML ZiFat 999 tinh dầu chanh và trà xanh với công thức cải tiến của SP – sạch cực mạnh cùng chiết xuất chanh tươi giúp đánh tan dầu mỡ nhanh gấp 2 lần so với nước rửa chén thường. Sản phẩm giúp rửa sạch các vết dầu mỡ, cà ri và cả mùi tanh bám trên chén đĩa, xoong nồi một cách dễ dàng.\n\nVới công thức đặc biệt kết hợp tinh dầu chanh tự nhiên và chiết xuất trà xanh, sản phẩm mang lại hiệu quả làm sạch vượt trội, đồng thời an toàn cho sức khỏe người sử dụng.",
+      "image": "/product-images/nuoc-rua-chen-850ml-zifat-999.jpg",
+      "images": ["/product-images/nuoc-rua-chen-850ml-zifat-999.jpg"],
+      "price": null,
+      "volume": "850ml",
+      "category": "dishwashing",
+      "tags": ["Nước Rửa Chén", "850ml", "Tinh Dầu Chanh", "Trà Xanh", "Đánh Tan Dầu Mỡ"],
+      "features": [
+        "Đánh tan dầu mỡ nhanh gấp 2 lần",
+        "Tinh dầu chanh tự nhiên",
+        "Chiết xuất trà xanh",
+        "Rửa sạch vết cà ri và mùi tanh",
+        "Dung tích 850ml"
+      ],
+      "usage": "1. Cho một lượng nhỏ nước rửa chén vào miếng bọt biển ướt\n2. Chà nhẹ nhang lên bề mặt chén đĩa, xoong nồi\n3. Rửa sạch bằng nước\n4. Để ráo nước trước khi cất giữ",
+      "benefits": "• Đánh tan dầu mỡ hiệu quả gấp 2 lần sản phẩm thường\n• Loại bỏ hoàn toàn mùi tanh và vết cà ri\n• Tinh dầu chanh tự nhiên an toàn cho sức khỏe\n• Chiết xuất trà xanh có tác dụng kháng khuẩn tự nhiên\n• Dung tích lớn 850ml tiết kiệm",
+      "ingredients": "Water, LAS.SLES.C.D.E, hương chanh thiên nhiên.",
+      "storage": "Lưu trữ nơi khô ráo, tránh ánh nắng trực tiếp.",
+      "warnings": "• Không được uống, để xa tầm tay của trẻ em\n• Nếu sản phẩm dính vào mắt, rửa sạch bằng nước\n• Nếu nuốt phải, uống ngay 2 ly nước hoặc sữa, nếu cần thì đến cơ sở y tế",
+      "specifications": {
+        "pH": "6-8"
+      },
+      "viewCount": 1736,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-tay-da-nang-zifat-999",
+      "name": "Nước Tẩy Đa Năng",
+      "description": "Tẩy nhanh, sạch các loại dầu nhớt công nghiệp khó lau chùi hoặc bám dính trên các loại vật dụng.",
+      "detailedDescription": "Tẩy nhanh, sạch các loại dầu nhớt công nghiệp khó lau chùi hoặc bám dính trên các loại vật dụng.\n\n• Sơn xe ô tô, xe gắn máy, máy may công nghiệp, vỏ máy vi tính, ti vi, tủ lạnh, mi ca, tranh sơn mài và các dụng cụ hàng ngày, tẩy sạch các vết dầu mỡ bám trên tường sơn nước.\n\n• Tẩy được dầu máy dính trên quần áo, block máy, ô tô, tàu thuyền, bếp ga, bồn tắm, đồ gốm sứ, gạch men, tủ nhôm các loại.",
+      "image": "/product-images/nuoc-tay-da-nang.jpg",
+      "images": ["/product-images/nuoc-tay-da-nang.jpg"],
+      "price": null,
+      "volume": null,
+      "category": "multi-purpose-cleaner",
+      "tags": ["Tẩy Đa Năng", "Dầu Nhớt", "Công Nghiệp", "Đa Chức Năng"],
+      "features": [
+        "Tẩy nhanh các loại dầu nhớt công nghiệp",
+        "Hiệu quả trên nhiều bề mặt khác nhau",
+        "Tẩy được dầu máy dính trên quần áo",
+        "An toàn cho đồ gốm sứ, gạch men",
+        "Phù hợp với xe ô tô, máy móc công nghiệp"
+      ],
+      "usage": "Dùng nước tẩy rửa đa năng ZIFAT 999 phun lên bề mặt vùng bẩn sau đó lau lại bằng nước sạch và dùng khăn vải lau khô lại.",
+      "benefits": "• Tẩy nhanh các loại dầu nhớt công nghiệp cứng đầu\n• Hiệu quả trên nhiều loại bề mặt khác nhau\n• Không làm hỏng sơn và vật liệu\n• Tiết kiệm thời gian và công sức\n• An toàn cho người sử dụng",
+      "ingredients": "Nước, detergent, Grease cutter, NP9.",
+      "storage": "Nơi khô ráo, thoáng mát.",
+      "warnings": "• Để xa tầm tay trẻ em\n• Rửa ngay bằng nước khi bị văng vào mắt",
+      "specifications": {
+        "Chất hoạt động bề mặt": "min 10% KL",
+        "Độ pH": "8-10",
+        "Hàm lượng chất không tan trong nước": "max 0,1%KL",
+        "HSD": "3 năm"
+      },
+      "viewCount": 1757,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-rua-chen-480ml-zifat-999",
+      "name": "Nước Rửa Chén 480ml ZIFAT 999",
+      "description": "Nước rửa chén 480ML ZiFat 999 tinh dầu chanh và trà xanh với công thức cải tiến của SP – sạch cực mạnh cùng chiết xuất chanh tươi giúp đánh tan dầu mỡ nhanh gấp 2 lần so với nước rửa chén thường.",
+      "detailedDescription": "Nước rửa chén 480ML ZiFat 999 tinh dầu chanh và trà xanh với công thức cải tiến của SP – sạch cực mạnh cùng chiết xuất chanh tươi giúp đánh tan dầu mỡ nhanh gấp 2 lần so với nước rửa chén thường. Sản phẩm giúp rửa sạch các vết dầu mỡ, cà ri và cả mùi tanh bám trên chén đĩa, xoong nồi một cách dễ dàng.\n\nVới công thức đặc biệt kết hợp tinh dầu chanh tự nhiên và chiết xuất trà xanh, sản phẩm mang lại hiệu quả làm sạch vượt trội, đồng thời an toàn cho sức khỏe người sử dụng.",
+      "image": "/product-images/nuoc-rua-chen-480ml-zifat-999.jpg",
+      "images": ["/product-images/nuoc-rua-chen-480ml-zifat-999.jpg"],
+      "price": null,
+      "volume": "480ml",
+      "category": "dishwashing",
+      "tags": ["Nước Rửa Chén", "480ml", "Tinh Dầu Chanh", "Trà Xanh", "Đánh Tan Dầu Mỡ"],
+      "features": [
+        "Đánh tan dầu mỡ nhanh gấp 2 lần",
+        "Tinh dầu chanh tự nhiên",
+        "Chiết xuất trà xanh",
+        "Rửa sạch vết cà ri và mùi tanh",
+        "Dung tích 480ml"
+      ],
+      "usage": "1. Cho một lượng nhỏ nước rửa chén vào miếng bọt biển ướt\n2. Chà nhẹ nhang lên bề mặt chén đĩa, xoong nồi\n3. Rửa sạch bằng nước\n4. Để ráo nước trước khi cất giữ",
+      "benefits": "• Đánh tan dầu mỡ hiệu quả gấp 2 lần sản phẩm thường\n• Loại bỏ hoàn toàn mùi tanh và vết cà ri\n• Tinh dầu chanh tự nhiên an toàn cho sức khỏe\n• Chiết xuất trà xanh có tác dụng kháng khuẩn tự nhiên\n• Dung tích 480ml tiện lợi",
+      "ingredients": "Water, LAS.SLES.C.D.E, hương chanh thiên nhiên.",
+      "storage": "Lưu trữ nơi khô ráo, tránh ánh nắng trực tiếp.",
+      "warnings": "• Không được uống, để xa tầm tay của trẻ em\n• Nếu sản phẩm dính vào mắt, rửa sạch bằng nước\n• Nếu nuốt phải, uống ngay 2 ly nước hoặc sữa, nếu cần thì đến cơ sở y tế",
+      "specifications": {
+        "pH": "6-8"
+      },
+      "viewCount": 1597,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-lau-gach-da-nang-1200ml-zifat-999",
+      "name": "Nước Lau Gạch Đa Năng 1200ml ZIFAT 999",
+      "description": "Tẩy sạch cặn bẩn, rêu, vết ố, gáu bẩn ở toilet, nhà tắm, gạch ốp lát, sàn nhà và các thiết bị bằng men sứ khác, Đặc biệt tẩy được rong nền nhà cũ thành mới, xi măng chết dính trên tường nhà trong qua trình xây dựng",
+      "detailedDescription": "Tẩy sạch cặn bẩn, rêu, vết ố, gáu bẩn ở toilet, nhà tắm, gạch ốp lát, sàn nhà và các thiết bị bằng men sứ khác, Đặc biệt tẩy được rong nền nhà cũ thành mới, xi măng chết dính trên tường nhà trong qua trình xây dựng.",
+      "image": "/product-images/nuoc-lau-gach-da-nang-1200ml-zifat-999.jpg",
+      "images": ["/product-images/nuoc-lau-gach-da-nang-1200ml-zifat-999.jpg"],
+      "price": "38.000",
+      "volume": "1200ml",
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Lau Gạch", "Đa Năng", "Tẩy Rêu", "Xi Măng", "1200ml"],
+      "features": [
+        "Tẩy sạch cặn bẩn, rêu, vết ố",
+        "Hiệu quả với gáu bẩn toilet, nhà tắm",
+        "Tẩy được rong nền nhà cũ thành mới",
+        "Tẩy xi măng chết dính trên tường",
+        "Dung tích lớn 1200ml"
+      ],
+      "usage": "Lắc đều trước khi dùng.\n\nĐối với vết bẩn thông thường:\n- Pha 5 nắp chai chất tẩy với 1 lít nước\n- Cọ rửa bề mặt bằng dung dịch đã pha\n- Xả nước cho sạch\n\nĐối với bề mặt gáu bẩn và ố vàng:\n- Phun trực tiếp chất tẩy lên bề mặt những nơi cần làm sạch\n- Chờ từ 2 đến 3 phút\n- Dùng chổi chà cho sạch",
+      "benefits": "• Tẩy sạch hiệu quả cặn bẩn và rêu mốc\n• Làm sạch vết ố vàng cứng đầu\n• Phù hợp nhiều loại bề mặt\n• Tẩy được xi măng chết dính\n• Làm mới nền nhà cũ",
+      "storage": "Bảo quản nơi thoáng mát.",
+      "warnings": "• Cần mang bao tay trước khi sử dụng\n• Không cho dính vào mắt và da\n• Tránh trẻ em và vật nuôi trong nhà",
+      "viewCount": 3004,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-lau-san-huong-apple-zifat-999",
+      "name": "Nước Lau Sàn Hương Apple ZIFAT 999",
+      "description": "Nước Lau Sàn Hương Apple ZIFAT 999 sử dụng rất hiệu quả cho mọi loại bề mặt như: sàn gạch men, sàn đá hoa cương, gạch khảm, mặt gỗ, lót ván, đồ nhựa,...",
+      "detailedDescription": "Nước Lau Sàn Hương Apple ZIFAT 999 với công thức tiên tiến kết hợp độc đáo giữa các hoạt chất tẩy sạch và hương thơm tươi mát giúp công việc vệ sinh nhà cửa trở nên nhẹ nhàng, nhanh chóng, dễ chịu và tiện lợi hơn.\n\nNước Lau Sàn Hương Apple ZIFAT 999 sử dụng rất hiệu quả cho mọi loại bề mặt như: sàn gạch men, sàn đá hoa cương, gạch khảm, mặt gỗ, lót ván, đồ nhựa,...",
+      "image": "/product-images/nuoc-lau-san-huong-apple-zifat-999.jpg",
+      "images": ["/product-images/nuoc-lau-san-huong-apple-zifat-999.jpg"],
+      "price": null,
+      "volume": null,
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Lau Sàn", "Hương Apple", "Đa Năng", "Sát Trùng"],
+      "features": [
+        "Hiệu quả cho mọi loại bề mặt",
+        "Hương thơm Apple tươi mát",
+        "Công thức tiên tiến",
+        "Tẩy sạch và sát trùng",
+        "Dễ sử dụng, tiện lợi"
+      ],
+      "usage": "Lau nhà hằng ngày:\n- Hoài 1 nắp đầy Nước Lau Sàn Hương Apple ZIFAT 999 vào xô nước (loại 0,5l)\n- Nhúng ướt giẻ lau hoặc cây lau sàn vào xô nước\n- Lau sạch toàn bộ mặt sàn cần làm sạch\n- Để khô, không lau lịa bằng nước\n\nDùng tẩy và sát trùng:\n- Hòa 1 nắp Nước Lau Sàn Hương Apple ZIFAT 999 vào 0,8l nước để tẩy và sát trùng bề mặt",
+      "benefits": "• Làm sạch hiệu quả nhiều loại bề mặt\n• Hương thơm Apple dễ chịu\n• Vệ sinh nhà cửa nhẹ nhàng, nhanh chóng\n• Tích hợp tẩy sạch và sát trùng\n• Tiết kiệm thời gian và công sức",
+      "ingredients": "Etholxylated nonyl Phenol, hương thơm,...",
+      "storage": "Đậy nắp kỹ sau khi sử dụng",
+      "warnings": "• Không được uống\n• Để xa tầm tay trẻ em",
+      "specifications": {
+        "Hàm lượng chất tẩy rửa": "không dưới 3%"
+      },
+      "viewCount": 1372,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-lau-san-huong-hoa-ha-zifat-999",
+      "name": "Nước Lau Sàn Hương Hoa Hạ ZIFAT 999",
+      "description": "Nước Lau Sàn Hương Hoa Hạ ZIFAT 999 sử dụng rất hiệu quả cho mọi loại bề mặt như: sàn gạch men, sàn đá hoa cương, gạch khảm, mặt gỗ, lót ván, đồ nhựa,...",
+      "detailedDescription": "Nước Lau Sàn Hương Hoa Hạ ZIFAT 999 với công thức tiên tiến kết hợp độc đáo giữa các hoạt chất tẩy sạch và hương thơm tươi mát giúp công việc vệ sinh nhà cửa trở nên nhẹ nhàng, nhanh chóng, dễ chịu và tiện lợi hơn.\n\nNước Lau Sàn Hương Hoa Hạ ZIFAT 999 sử dụng rất hiệu quả cho mọi loại bề mặt như: sàn gạch men, sàn đá hoa cương, gạch khảm, mặt gỗ, lót ván, đồ nhựa,...",
+      "image": "/product-images/nuoc-lau-san-huong-hoa-ha-zifat-999.jpg",
+      "images": ["/product-images/nuoc-lau-san-huong-hoa-ha-zifat-999.jpg"],
+      "price": null,
+      "volume": null,
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Lau Sàn", "Hương Hoa Hạ", "Đa Năng", "Sát Trùng"],
+      "features": [
+        "Hiệu quả cho mọi loại bề mặt",
+        "Hương thơm Hoa Hạ tươi mát",
+        "Công thức tiên tiến",
+        "Tẩy sạch và sát trùng",
+        "Dễ sử dụng, tiện lợi"
+      ],
+      "usage": "Lau nhà hằng ngày:\n- Hoài 1 nắp đầy Nước Lau Sàn Hương Hoa Hạ ZIFAT 999 vào xô nước (loại 0,5l)\n- Nhúng ướt giẻ lau hoặc cây lau sàn vào xô nước\n- Lau sạch toàn bộ mặt sàn cần làm sạch\n- Để khô, không lau lịa bằng nước\n\nDùng tẩy và sát trùng:\n- Hòa 1 nắp Nước Lau Sàn Hương Hoa Hạ ZIFAT 999 vào 0,8l nước để tẩy và sát trùng bề mặt",
+      "benefits": "• Làm sạch hiệu quả nhiều loại bề mặt\n• Hương thơm Hoa Hạ dễ chịu\n• Vệ sinh nhà cửa nhẹ nhàng, nhanh chóng\n• Tích hợp tẩy sạch và sát trùng\n• Tiết kiệm thời gian và công sức",
+      "ingredients": "Etholxylated nonyl Phenol, hương thơm,...",
+      "storage": "Đậy nắp kỹ sau khi sử dụng",
+      "warnings": "• Không được uống\n• Để xa tầm tay trẻ em",
+      "specifications": {
+        "Hàm lượng chất tẩy rửa": "không dưới 3%"
+      },
+      "viewCount": 1125,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "chat-ve-sinh-long-may-giat-zifat-999",
+      "name": "Chất Vệ Sinh Lồng Máy Giặt",
+      "description": "Chất Vệ Sinh Tẩy Trắng Lồng Máy giặt Phòng Ngừa Vi Khuẩn ZIFAT 999 loại bỏ những cặn bẩn, oxy hóa, diệt khuẩn, gây mùi hôi trong máy giặt và đường ống thoát nước. Tăng cường hoạt chất tẩy giặt, giúp bạn tiện lợi hơn và không lo về sự cố tác nhân cáu cặn lâu ngày gây ra.",
+      "detailedDescription": "Chất Vệ Sinh Tẩy Trắng Lồng Máy giặt Phòng Ngừa Vi Khuẩn ZIFAT 999 loại bỏ những cặn bẩn, oxy hóa, diệt khuẩn, gây mùi hôi trong máy giặt và đường ống thoát nước. Tăng cường hoạt chất tẩy giặt, giúp bạn tiện lợi hơn và không lo về sự cố tác nhân cáu cặn lâu ngày gây ra.\n\nSản phẩm giúp kéo dài tuổi thọ của máy giặt, quần áo được thơm tho và loại bỏ những vi khuẩn gây mùi hôi và có hại cho sức khỏe.",
+      "image": "/product-images/chat-ve-sinh-long-may-giat.jpg",
+      "images": ["/product-images/chat-ve-sinh-long-may-giat.jpg"],
+      "price": null,
+      "originalPrice": null,
+      "volume": null,
+      "category": "laundry",
+      "tags": ["Vệ Sinh Máy Giặt", "Lồng Giặt", "Diệt Khuẩn", "Tẩy Trắng"],
+      "features": [
+        "Loại bỏ cặn bẩn và oxy hóa",
+        "Diệt khuẩn hiệu quả",
+        "Loại bỏ mùi hôi trong máy giặt",
+        "Tăng cường hoạt chất tẩy giặt",
+        "Kéo dài tuổi thọ máy giặt"
+      ],
+      "usage": "• Máy giặt có chế độ vệ sinh lồng giặt: Đổ 1/2 chai\n• Máy giặt không có chế độ vệ sinh: Đổ 1 chai đầy\n\nCác bước thực hiện:\n1. Đảm bảo máy giặt không chứa quần áo\n2. Cho nước vào máy (không đầy)\n3. Đổ chất vệ sinh theo liều lượng trên\n4. Ngâm khoảng 90-110 phút\n5. Chạy chế độ giặt xả, vắt thông thường\n\nTần suất sử dụng:\n• Vệ sinh máy giặt 2-3 tháng/1 lần\n• Hoặc sau 60 lần giặt\n• Giúp kéo dài tuổi thọ máy giặt và loại bỏ vi khuẩn có hại",
+      "benefits": "• Loại bỏ cặn bẩn và oxy hóa trong lồng giặt\n• Diệt khuẩn và khử mùi hôi hiệu quả\n• Tăng cường hiệu quả tẩy giặt\n• Kéo dài tuổi thọ máy giặt\n• Quần áo được thơm tho và sạch sẽ hơn\n• Bảo vệ sức khỏe khỏi vi khuẩn có hại",
+      "ingredients": "Water, Sodium hypochlorite NACLO 10%, Scent, Apple, Preservative...",
+      "storage": "Bảo quản nơi thoáng mát và để xa tầm tay trẻ em, thú vật nuôi trong nhà.",
+      "warnings": "• Để xa tầm tay trẻ em và thú vật nuôi trong nhà\n• Bảo quản nơi thoáng mát",
+      "viewCount": 698,
+      "isFeatured": true,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-lau-kinh-650ml-zifat-999",
+      "name": "Nước Lau Kính 650ML - ZIFAT 999",
+      "description": "Tẩy sạch bụi bẩn, các vết dầu mỡ bám trên kính, tivi, tủ lạnh, bếp ga, máy giặt, máy điện thoại bàn.",
+      "detailedDescription": "Tẩy sạch bụi bẩn, các vết dầu mỡ bám trên kính, tivi, tủ lạnh, bếp ga, máy giặt, máy điện thoại bàn.",
+      "image": "/product-images/nuoc-lau-kinh-650ml-zifat-999.jpg",
+      "images": ["/product-images/nuoc-lau-kinh-650ml-zifat-999.jpg"],
+      "price": "22.000",
+      "volume": "650ml",
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Lau Kính", "Tẩy Dầu Mỡ", "Kính", "Tivi", "Tủ Lạnh"],
+      "features": [
+        "Tẩy sạch bụi bẩn hiệu quả",
+        "Loại bỏ vết dầu mỡ bám",
+        "Phù hợp nhiều bề mặt",
+        "Lau bóng không để vệt",
+        "Dung tích 650ml"
+      ],
+      "usage": "Dùng nước rửa kính phủ lên bề mặt, sau đó lấy vải sạch hoặc khăn giấy để lau bóng",
+      "benefits": "• Tẩy sạch bụi bẩn và vết dầu mỡ hiệu quả\n• Phù hợp với kính, tivi, tủ lạnh, bếp ga\n• Lau bóng không để vệt\n• Sử dụng đơn giản, tiện lợi",
+      "ingredients": "Nước, Surfactants, IPA, dung môi, chất bảo quản.",
+      "storage": "Nơi khô ráo, thoáng mát.",
+      "warnings": "Để tránh xa trẻ em và vật nuôi trong nhà.",
+      "specifications": {
+        "Chất hoạt động bề mặt": "min 0,2% KL",
+        "Độ pH": "7-8",
+        "Hàm lượng chất không tan trong nước": "max 0,01% KL",
+        "HSD": "3 năm"
+      },
+      "viewCount": 1879,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-xit-phong-220ml-zifat-999",
+      "name": "Nước Xịt Phòng 220ML - ZIFAT 999",
+      "description": "Nước xịt phòng ZIFAT 999 là một sự phối hợp giữa mùi thơm thiên nhiên và tổng hợp tạo thành một hương thơm độc đáo, mang đến không khí tươi mát, dễ chịu và sảng khoái cho căn phòng của bạn.",
+      "detailedDescription": "Nước xịt phòng ZIFAT 999 là một sự phối hợp giữa mùi thơm thiên nhiên và tổng hợp tạo thành một hương thơm độc đáo, mang đến không khí tươi mát, dễ chịu và sảng khoái cho căn phòng của bạn.",
+      "image": "/product-images/nuoc-xit-phong-220ml-zifat-999.jpg",
+      "images": ["/product-images/nuoc-xit-phong-220ml-zifat-999.jpg"],
+      "price": "20.000",
+      "volume": "220ml",
+      "category": "deodorizer",
+      "tags": ["Nước Xịt Phòng", "Hương Thơm", "Khử Mùi", "Không Khí Tươi Mát"],
+      "features": [
+        "Phối hợp mùi thơm thiên nhiên và tổng hợp",
+        "Hương thơm độc đáo",
+        "Mang lại không khí tươi mát",
+        "Dễ chịu và sảng khoái",
+        "Dung tích 220ml"
+      ],
+      "usage": "Lắc đều trước khi sử dụng nên xịt vào những nơi dễ bám như rèm cửa, màn sáo, hoa vải để lưu lại mùi thơm lâu hơn.",
+      "benefits": "• Tạo không khí tươi mát, dễ chịu cho căn phòng\n• Hương thơm độc đáo từ thiên nhiên và tổng hợp\n• Lưu mùi thơm lâu khi xịt vào vật liệu vải\n• Sử dụng đơn giản, tiện lợi",
+      "ingredients": "Alcohol, hương liệu, nước tinh khiết, chất phụ gia.",
+      "storage": "Để nơi khô ráo, thoáng mát, chú ý để tránh xa tầm tay trẻ em, rửa ngay lại bằng nước sạch khi văng vào mắt.",
+      "warnings": "• Để tránh xa tầm tay trẻ em\n• Rửa ngay bằng nước sạch khi văng vào mắt",
+      "specifications": {
+        "HSD": "36 tháng kể từ ngày sản xuất"
+      },
+      "viewCount": 1771,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "chat-thong-wc-sieu-toc-700g-zifat-999",
+      "name": "Chất Thông WC Siêu Tốc 700g - ZIFAT 999",
+      "description": "Chất thông cống Sewerage Clearing substance ZIFAT 999 cực mạnh thông nhanh và phân hủy xác bã thực phẩm, xác động vật chết, rêu, giấy, cặn bẩn, tóc, cơm, mỡ và các chất hữu cơ trong đường ống thoát nước, không cho cống nghẹt và bốc mùi hôi cũng có thể diệt vi khuẩn có hại cho sức khỏe.",
+      "detailedDescription": "Chất thông cống Sewerage Clearing substance ZIFAT 999 cực mạnh thông nhanh và phân hủy xác bã thực phẩm, xác động vật chết, rêu, giấy, cặn bẩn, tóc, cơm, mỡ và các chất hữu cơ trong đường ống thoát nước, không cho cống nghẹt và bốc mùi hôi cũng có thể diệt vi khuẩn có hại cho sức khỏe.\n\nChất thông cống Sewerage Clearing substance ZIFAT 999 có tác dụng chống tắc nghẽn và bảo dưỡng các đường ống thoát nước toilet, lavabo, sàn bếp, nhà tắm, và ống thoát nước nhà cao tầng không cho cống nghẹt giúp bảo dưỡng đường ống tốt hơn.",
+      "image": "/product-images/chat-thong-wc-sieu-toc-700g-zifat-999-1.jpg",
+      "images": ["/product-images/chat-thong-wc-sieu-toc-700g-zifat-999-1.jpg", "/product-images/chat-thong-wc-sieu-toc-700g-zifat-999-2.jpg"],
+      "price": "37.000",
+      "volume": "700g",
+      "category": "drain-cleaner",
+      "tags": ["Chất Thông Cống", "Thông WC", "Siêu Tốc", "Phân Hủy", "Diệt Khuẩn"],
+      "features": [
+        "Thông nhanh cực mạnh",
+        "Phân hủy xác bã thực phẩm",
+        "Diệt vi khuẩn có hại",
+        "Chống tắc nghẽn",
+        "Bảo dưỡng đường ống",
+        "Khối lượng 700g"
+      ],
+      "usage": "<strong>Cách sử dụng:</strong>\n1. Cắt chéo góc bao sản phẩm\n2. Hòa tan với nước:\n   - 400g sản phẩm + 1 lít nước\n   - 200g sản phẩm + 0,5 lít nước\n3. Khuấy đều hỗn hợp\n4. Đổ xuống nơi bị tắc nghẽn\n5. Chờ 3-5 giờ để sản phẩm phát huy tác dụng\n6. Dội nước mạnh để thông thoát hoàn toàn\n\n<strong>Trường hợp đặc biệt:</strong>\nNếu nước không thể rút hết, có thể đổ trực tiếp bột vào cống mà không cần hòa tan trước.\n\n<strong>Liều lượng khuyến nghị:</strong>\n• Đường cống nhỏ: 1 gói\n• Đường cống lớn hoặc dài: 2-3 gói\n• Bảo dưỡng định kỳ: 1 gói (200g) mỗi 3-4 tháng cho những nơi thường bị tắc nghẽn",
+      "benefits": "• Thông nhanh và hiệu quả các đường ống thoát nước\n• Phân hủy hoàn toàn các chất hữu cơ gây tắc nghẽn\n• Diệt vi khuẩn có hại cho sức khỏe\n• Chống tắc nghẽn và bảo dưỡng đường ống\n• Phù hợp với toilet, lavabo, sàn bếp, nhà tắm",
+      "ingredients": "Sodium hydroxide, surfactant và các phụ gia khác vừa đủ.",
+      "storage": "Bảo quản nơi thoáng mát.",
+      "warnings": "• Cần mang bao tay trước khi sử dụng\n• Không cho dính vào mắt và da\n• Tránh trẻ em và vật nuôi trong nhà",
+      "viewCount": 796,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "thuoc-diet-con-trung-zifat-999",
+      "name": "Thuốc Diệt Côn Trùng - ZIFAT 999",
+      "description": "Với Dầu Diệt Côn Trùng ZIFAT 999 trong vòng 10 phút phòng trừ hữu hiệu các loại côn trùng ruồi, muỗi, mối, mọt, kiến, gián, ve, bọ chét,... Chết ngay khi tiếp xúc và duy trì 5 tuần sau đó.",
+      "detailedDescription": "Với Dầu Diệt Côn Trùng ZIFAT 999 trong vòng 10 phút phòng trừ hữu hiệu các loại côn trùng ruồi, muỗi, mối, mọt, kiến, gián, ve, bọ chét,... Chết ngay khi tiếp xúc và duy trì 5 tuần sau đó.\n\nĐặc biệt Dầu Diệt Côn Trùng ZIFAT 999 có tính lưu dẫn, xông hơi vào tận sâu trong mặt gỗ, khe đất, diệt trừ cả ấu trùng, trứng mối mọt hoàn toàn bị loại trừ.",
+      "image": "/product-images/thuoc-diet-con-trung-zifat-999-1.jpg",
+      "images": ["/product-images/thuoc-diet-con-trung-zifat-999-1.jpg", "/product-images/thuoc-diet-con-trung-zifat-999-2.jpg"],
+      "price": "45.000",
+      "volume": null,
+      "category": "pesticide",
+      "tags": ["Thuốc Diệt Côn Trùng", "Diệt Ruồi Muỗi", "Diệt Mối Mọt", "Diệt Kiến Gián", "Dầu Xịt"],
+      "features": [
+        "Hiệu quả trong vòng 10 phút",
+        "Diệt nhiều loại côn trùng",
+        "Duy trì hiệu quả 5 tuần",
+        "Có tính lưu dẫn, xông hơi sâu",
+        "Diệt cả ấu trùng và trứng"
+      ],
+      "usage": "<strong>Hướng dẫn sử dụng:</strong>\nXoay đầu phun sao cho vị trí Spray ở mặt trên cùng để phun sương, hoặc vị trí Stream để phun tia. Sau khi phun xoay đầu phun về vị trí OFF để bảo quản bình xịt.\n\n<strong>Đối với côn trùng bò (kiến, gián, mối, mọt):</strong>\nXịt trực tiếp vào côn trùng hoặc đường đi của chúng, tổ kiến - mối, dưới bồn rửa chén, phía sau tủ lạnh, nơi côn trùng ẩn náu và sinh đẻ.\n\n<strong>Đối với tổ mối:</strong>\nLấy vật nhọn vạch sâu vài đường trước khi phun để thuốc thấm sâu vào bên trong và xoay đầu phun qua vị trí phun tia để dòng phun được mạnh hơn.\n\n<strong>Đối với côn trùng có cánh (ruồi, muỗi):</strong>\nĐóng kín cửa xịt dầu diệt côn trùng vào gầm giường, khe tủ, góc tường sau 15 phút thì mở cửa ra cho thông gió.\n\n<strong>Để diệt bọ chét, ve cho chó, mèo:</strong>\nXịt trực tiếp lên cơ thể (không xịt vào mắt mũi, miệng, không dùng cho thú con dưới 3 tháng). Sau 15 phút tắm lại bằng xà phòng.",
+      "benefits": "• Hiệu quả nhanh trong vòng 10 phút\n• Diệt được nhiều loại côn trùng khác nhau\n• Duy trì hiệu quả lâu dài 5 tuần\n• Có tính lưu dẫn, thấm sâu vào khe nứt\n• Diệt cả ấu trùng và trứng côn trùng\n• Phù hợp sử dụng cho cả vật nuôi",
+      "ingredients": "Alpha - Cypermethrin, phụ gia vừa đủ.",
+      "storage": "Nơi khô ráo, không để gần những nơi có nhiệt độ cao trên 50 độ C.",
+      "warnings": "• Tránh xa tầm tay trẻ em và vật nuôi trong nhà\n• Không để dầu tiếp xúc với mắt, mũi, miệng\n• Nếu dính dầu vào mắt phải rửa ngay bằng nước và tới trung tâm y tế gần nhất để điều trị\n• Rửa tay bằng xà phòng sau mỗi lần sử dụng\n• Không xịt trực tiếp vào người hay thức ăn",
+      "viewCount": 1082,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-tay-trang-da-nang-4kg-zifat999",
+      "name": "Nước Tẩy Trắng Đa Năng 4Kg - ZIFAT999",
+      "description": "Đặc biệt Nước Tẩy Trắng Đa Năng Javel - ZIFAT 999 có khả năng tẩy trùng và tẩy mùi các vật dụng vệ sinh gia đình, đồ nhựa, đồ sứ, nhà bếp, phòng tắm, bồn cầu, bệnh viện, sàn nhà và những bề mặt khác.",
+      "detailedDescription": "Đặc biệt Nước Tẩy Trắng Đa Năng Javel - ZIFAT 999 có khả năng tẩy trùng và tẩy mùi các vật dụng vệ sinh gia đình, đồ nhựa, đồ sứ, nhà bếp, phòng tắm, bồn cầu, bệnh viện, sàn nhà và những bề mặt khác.",
+      "image": "/product-images/nuoc-tay-trang-da-nang-4kg-zifat999.jpg",
+      "images": ["/product-images/nuoc-tay-trang-da-nang-4kg-zifat999.jpg"],
+      "price": null,
+      "volume": "4kg",
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Tẩy Trắng", "Đa Năng", "Javel", "Tẩy Trùng", "Khử Mùi"],
+      "features": [
+        "Tẩy trùng hiệu quả",
+        "Khử mùi mạnh mẽ",
+        "Đa năng nhiều bề mặt",
+        "Phù hợp vệ sinh gia đình",
+        "Dung tích lớn 4kg"
+      ],
+      "usage": "Sử dụng để tẩy trùng và khử mùi các vật dụng vệ sinh gia đình, đồ nhựa, đồ sứ, nhà bếp, phòng tắm, bồn cầu và các bề mặt khác.",
+      "benefits": "• Tẩy trùng hiệu quả các vật dụng gia đình\n• Khử mùi mạnh mẽ\n• Phù hợp với nhiều loại bề mặt\n• An toàn cho đồ nhựa và đồ sứ\n• Dung tích lớn tiết kiệm",
+      "ingredients": null,
+      "storage": null,
+      "warnings": null,
+      "viewCount": 645,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-lau-san-da-nang-4kg-zifat-999",
+      "name": "Nước Lau Sàn Đa Năng 4Kg - ZIFAT 999",
+      "description": "Đặc biệt Nước Lau Sàn Đa Năng 4Kg - ZIFAT 999 có khả năng tẩy trùng và tẩy mùi các vật dụng vệ sinh gia đình, đồ nhựa, đồ sứ, nhà bếp, phòng tắm, bồn cầu, bệnh viện, sàn nhà và những bề mặt khác.",
+      "detailedDescription": "Đặc biệt Nước Lau Sàn Đa Năng 4Kg - ZIFAT 999 có khả năng tẩy trùng và tẩy mùi các vật dụng vệ sinh gia đình, đồ nhựa, đồ sứ, nhà bếp, phòng tắm, bồn cầu, bệnh viện, sàn nhà và những bề mặt khác.",
+      "image": "/product-images/nuoc-lau-san-da-nang-4kg-zifat-999.jpg",
+      "images": ["/product-images/nuoc-lau-san-da-nang-4kg-zifat-999.jpg"],
+      "price": null,
+      "volume": "4kg",
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Lau Sàn", "Đa Năng", "Tẩy Trùng", "Khử Mùi", "4Kg"],
+      "features": [
+        "Tẩy trùng hiệu quả",
+        "Khử mùi mạnh mẽ",
+        "Đa năng nhiều bề mặt",
+        "Phù hợp vệ sinh gia đình",
+        "Dung tích lớn 4kg"
+      ],
+      "usage": "Sử dụng để tẩy trùng và khử mùi các vật dụng vệ sinh gia đình, đồ nhựa, đồ sứ, nhà bếp, phòng tắm, bồn cầu, sàn nhà và các bề mặt khác.",
+      "benefits": "• Tẩy trùng hiệu quả các vật dụng gia đình\n• Khử mùi mạnh mẽ\n• Phù hợp với nhiều loại bề mặt\n• An toàn cho đồ nhựa và đồ sứ\n• Dung tích lớn tiết kiệm",
+      "ingredients": null,
+      "storage": null,
+      "warnings": null,
+      "viewCount": 656,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "chat-chong-tac-nghen-wc-200g-zifat-999",
+      "name": "Chất Chống Tắc Nghẽn WC 200g - ZIFAT 999",
+      "description": "CHẤT CHỐNG TẮC NGHẼN ZIFAT 999 có tác dụng phân hủy nhanh như phân, giấy và các chất cặn bã hữu cơ trong hầm cầu, bể phốt làm giảm thiểu tối đa mùi hôi thối và chống tắc nghẽn hầm cầu.",
+      "detailedDescription": "CHẤT CHỐNG TẮC NGHẼN ZIFAT 999 có tác dụng phân hủy nhanh như phân, giấy và các chất cặn bã hữu cơ trong hầm cầu, bể phốt làm giảm thiểu tối đa mùi hôi thối và chống tắc nghẽn hầm cầu.\n\nCứ 3-6 tháng nên đổ 1 gói 300gr CHẤT CHỐNG TẮC NGHẼN ZIFAT 999 vào hầm cầu sẽ không phải rút hầm cầu do các chất cặn bã hữu cơ và tóc trong hầm cầu được phân hủy hoàn toàn.\n\nSản phẩm đã được kiểm nghiệm chất lượng tại Quatest3 và được phép lưu hành. Công nghệ và nguyên liệu ngoại nhập đóng bao bì tại VN.",
+      "image": "/product-images/chat-chong-tac-nghen-wc-200g-zifat-999-1.jpg",
+      "images": ["/product-images/chat-chong-tac-nghen-wc-200g-zifat-999-1.jpg", "/product-images/chat-chong-tac-nghen-wc-200g-zifat-999-2.jpg"],
+      "price": "35.000",
+      "volume": "200g",
+      "category": "drain-cleaner",
+      "tags": ["Chống Tắc Nghẽn", "WC", "Hầm Cầu", "Phân Hủy", "Khử Mùi"],
+      "features": [
+        "Phân hủy nhanh chất hữu cơ",
+        "Giảm thiểu mùi hôi thối",
+        "Chống tắc nghẽn hầm cầu",
+        "Phân hủy hoàn toàn tóc và cặn bã",
+        "Khối lượng 200g tiện lợi"
+      ],
+      "usage": "<strong>Hướng dẫn sử dụng:</strong>\nCắt chéo góc bao chất chống tắc nghẽn ZIFAT 999, đổ vào chậu khoảng 1/2 lít nước cho 300gr và khuấy đều và đổ xuống nơi tắc nghẽn.\n\nTrường hợp nước không thể rút hết thì đổ bột trực tiếp xuống hầm cầu chất chống tắc nghẽn ZIFAT 999 vào và hòa tan chờ 1-2 giờ sau đó dội nước thật mạnh cho thông.\n\n<strong>Liều lượng khuyến nghị:</strong>\n• Hầm cầu bị hôi: đổ 1 gói cho 2-3m³\n• Hầm cầu bị nghẹt: đổ 2-3 gói cho hầm cầu 2-3m³, hiệu lực sau 2-3 tiếng\n• Bảo dưỡng định kỳ: cứ 3-6 tháng nên đổ 1 gói 300gr vào hầm cầu",
+      "benefits": "• Phân hủy nhanh các chất hữu cơ trong hầm cầu\n• Giảm thiểu tối đa mùi hôi thối\n• Chống tắc nghẽn hiệu quả\n• Không cần rút hầm cầu thường xuyên\n• Phân hủy hoàn toàn tóc và cặn bã\n• Tiết kiệm chi phí bảo dưỡng",
+      "ingredients": "Caustic soda 99%",
+      "storage": "Để nơi khô ráo và thoáng mát.",
+      "warnings": "• Tránh xa tầm tay trẻ em\n• Không được uống",
+      "viewCount": 1455,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-lau-kinh-800ml-zifat-999",
+      "name": "NƯỚC LAU KÍNH 800ML - ZIFAT 999",
+      "description": "Tẩy sạch bụi bẩn, các vết dầu mỡ bám trên kính, tivi, tủ lạnh, bếp ga, máy giặt, máy điện thoại bàn.",
+      "detailedDescription": "Tẩy sạch bụi bẩn, các vết dầu mỡ bám trên kính, tivi, tủ lạnh, bếp ga, máy giặt, máy điện thoại bàn.\n\nSản phẩm đã được kiểm nghiệm chất lượng tại Quatest3 và được phép lưu hành.",
+      "image": "/product-images/nuoc-lau-kinh-800ml-zifat-999-1.jpg",
+      "images": ["/product-images/nuoc-lau-kinh-800ml-zifat-999-1.jpg", "/product-images/nuoc-lau-kinh-800ml-zifat-999-2.jpg", "/product-images/nuoc-lau-kinh-800ml-zifat-999-3.jpg"],
+      "price": "28.000",
+      "volume": "800ml",
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Lau Kính", "Tẩy Dầu Mỡ", "Kính", "Tivi", "Tủ Lạnh"],
+      "features": [
+        "Tẩy sạch bụi bẩn hiệu quả",
+        "Loại bỏ vết dầu mỡ bám",
+        "Phù hợp nhiều bề mặt",
+        "Lau bóng không để vệt",
+        "Dung tích 800ml"
+      ],
+      "usage": "Dùng nước rửa kính phủ lên bề mặt, sau đó lấy vải sạch hoặc khăn giấy để lau bóng",
+      "benefits": "• Tẩy sạch bụi bẩn và vết dầu mỡ hiệu quả\n• Phù hợp với kính, tivi, tủ lạnh, bếp ga\n• Lau bóng không để vệt\n• Sử dụng đơn giản, tiện lợi\n• Dung tích lớn 800ml tiết kiệm",
+      "ingredients": "Nước, Surfactants, IPA, dung môi, chất bảo quản.",
+      "storage": "Nơi khô ráo, thoáng mát.",
+      "warnings": "Để tránh xa trẻ em và vật nuôi trong nhà.",
+      "specifications": {
+        "Chất hoạt động bề mặt": "min 0,2% KL",
+        "Độ pH": "7-8",
+        "Hàm lượng chất không tan trong nước": "max 0,01% KL",
+        "HSD": "3 năm"
+      },
+      "viewCount": 1355,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "bot-thong-cong-200gr-zifat-999",
+      "name": "Bột Thông Cống 200gr - ZIFAT 999",
+      "description": "Tác dụng phân hủy nhanh như: phân giấy và các chất cặn bã hữu cơ trong hầm cầu, bể phốt làm giảm thiểu tối đa mùi hôi thối và chống tắc nghẽn hầm cầu.",
+      "detailedDescription": "Chất BICROPHOP, WC SIÊU TỐC Zifat 999 có tác dụng phân hủy nhanh như: phân giấy và các chất cặn bã hữu cơ trong hầm cầu, bể phốt làm giảm thiểu tối đa mùi hôi thối và chống tắc nghẽn hầm cầu.\n\nCứ từ 3-6 tháng nên đổ 1 gói 200gr hoặc 300gr chất thông cầu BICROPHOP, WC SIÊU TỐC ZIFAT 999 vào hầm cầu sẽ không cần phải rút hầm cầu do các chất cặn bã hữu cơ và tóc trong hầm cầu được phân hủy hoàn toàn.\n\nSản phẩm đã được kiểm nghiệm chất lượng tại Quatest3 và được phép lưu hành.",
+      "image": "/product-images/bot-thong-cong-200gr-zifat-999-1.jpg",
+      "images": ["/product-images/bot-thong-cong-200gr-zifat-999-1.jpg", "/product-images/bot-thong-cong-200gr-zifat-999-2.jpg"],
+      "price": "35.000",
+      "volume": "200gr",
+      "category": "drain-cleaner",
+      "tags": ["Bột Thông Cống", "WC Siêu Tốc", "Phân Hủy", "Hầm Cầu", "BICROPHOP"],
+      "features": [
+        "Phân hủy nhanh chất hữu cơ",
+        "Giảm thiểu mùi hôi thối",
+        "Chống tắc nghẽn hầm cầu",
+        "Phân hủy hoàn toàn tóc và cặn bã",
+        "Khối lượng 200gr tiện lợi"
+      ],
+      "usage": "<strong>Hướng dẫn sử dụng:</strong>\nCắt chéo góc bao chất thông cống Sewerage Clearing substance ZIFAT 999, đổ vào chậu nước khoảng 1 lít nước cho 400gr và 0,5l nước cho 200gr và khuấy đều và đổ xuống nơi bị tắc nghẽn, chờ 3-5 giờ rồi sau đó dội nước thật mạnh là thông thoát hoàn toàn.\n\nTrường hợp nước không thể rút hết thì đổ trực tiếp bột thông cống Sewerage Clearing substance ZIFAT 999 vào không cần phải hòa tan trước.\n\n<strong>Liều lượng khuyến nghị:</strong>\n• Đường cống nhỏ: sử dụng 1 gói\n• Đường cống lớn hoặc dài: sử dụng 2-3 gói\n• Bảo dưỡng định kỳ: cứ 3-4 tháng 1 lần có thể đổ dự phòng 1 gói (200gr) vào những nơi thường bị tắc nghẽn",
+      "benefits": "• Phân hủy nhanh các chất hữu cơ trong hầm cầu\n• Giảm thiểu tối đa mùi hôi thối\n• Chống tắc nghẽn hiệu quả\n• Không cần rút hầm cầu thường xuyên\n• Phân hủy hoàn toàn tóc và cặn bã\n• Tiết kiệm chi phí bảo dưỡng",
+      "ingredients": "Sodium hydroxide, surfactant và các phụ gia khác vừa đủ.",
+      "storage": "Bảo quản nơi thoáng mát.",
+      "warnings": "• Cần mang bao tay trước khi sử dụng\n• Không cho dính vào mắt và da\n• Tránh trẻ em và vật nuôi trong nhà",
+      "viewCount": 2692,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-xa-giat-quan-ao-da-nang-4kg-zifat-999",
+      "name": "Nước Xả - Giặt Quần Áo Đa Năng 4Kg - ZIFAT 999",
+      "description": "Nước Xả - Giặt Quần Áo Đa Năng 4Kg - ZIFAT 999",
+      "detailedDescription": "Nước Xả - Giặt Quần Áo Đa Năng 4Kg - ZIFAT 999",
+      "image": "/product-images/nuoc-xa-giat-quan-ao-da-nang-4kg-zifat-999.jpg",
+      "images": ["/product-images/nuoc-xa-giat-quan-ao-da-nang-4kg-zifat-999.jpg"],
+      "price": null,
+      "volume": "4kg",
+      "category": "laundry",
+      "tags": ["Nước Xả", "Giặt Quần Áo", "Đa Năng", "4Kg"],
+      "features": [
+        "Nước xả và giặt đa năng",
+        "Phù hợp mọi loại vải",
+        "Dung tích lớn 4kg",
+        "Tiết kiệm và hiệu quả"
+      ],
+      "usage": "Sử dụng để giặt và xả quần áo đa năng.",
+      "benefits": "• Giặt và xả quần áo hiệu quả\n• Phù hợp với mọi loại vải\n• Dung tích lớn 4kg tiết kiệm\n• Sản phẩm đa năng tiện lợi",
+      "ingredients": null,
+      "storage": null,
+      "warnings": null,
+      "viewCount": 744,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "chat-tay-ban-sieu-sach-zifat-999",
+      "name": "CHẤT TẨY BẨN SIÊU SẠCH - ZIFAT 999",
+      "description": "Chất tẩy đa năng ZIFAT 999 có tác dụng tẩy bẩn siêu mạnh không có độc hại, làm mới tất cả các vật dụng bị gỉ sét ố vàng như: nhựa, inox, men, sứ, kim loại, vàng, bạc, đá quý, fomica, da, simili,... đồ dùng sạch bóng như mới.",
+      "detailedDescription": "Chất tẩy đa năng ZIFAT 999 có tác dụng tẩy bẩn siêu mạnh không có độc hại, làm mới tất cả các vật dụng bị gỉ sét ố vàng như: nhựa, inox, men, sứ, kim loại, vàng, bạc, đá quý, fomica, da, simili,... đồ dùng sạch bóng như mới.",
+      "image": "/product-images/chat-tay-ban-sieu-sach-zifat-999-1.jpg",
+      "images": ["/product-images/chat-tay-ban-sieu-sach-zifat-999-1.jpg", "/product-images/chat-tay-ban-sieu-sach-zifat-999-2.jpg"],
+      "price": "38.000",
+      "volume": null,
+      "category": "multi-purpose-cleaner",
+      "tags": ["Chất Tẩy Bẩn", "Siêu Sạch", "Đa Năng", "Không Độc Hại", "Tẩy Gỉ Sét"],
+      "features": [
+        "Tẩy bẩn siêu mạnh",
+        "Không có độc hại",
+        "Làm mới vật dụng bị gỉ sét ố vàng",
+        "Phù hợp nhiều chất liệu",
+        "Đồ dùng sạch bóng như mới"
+      ],
+      "usage": "<strong>Hướng dẫn sử dụng:</strong>\n1. Bơm một lượng dung dịch vừa phải lên bề mặt cần làm sạch\n2. Dùng khăn ẩm để cọ nhẹ nhang\n3. Đối với vết bẩn cứng đầu: có thể dùng miếng cọ xoong\n4. Lau sạch bằng khăn khô hoặc rửa lại bằng nước\n5. Đối với đồ vật có khe hở: dùng bàn chải để làm sạch hiệu quả hơn\n\n<strong>Lưu ý:</strong>\n• Thử nghiệm trên khu vực nhỏ trước khi sử dụng rộng rãi\n• Sử dụng với lượng vừa phải để tránh lãng phí",
+      "benefits": "• Tẩy bẩn siêu mạnh không độc hại\n• Làm mới vật dụng bị gỉ sét ố vàng\n• Phù hợp với nhiều chất liệu: nhựa, inox, men, sứ, kim loại\n• Hiệu quả với vàng, bạc, đá quý, fomica, da, simili\n• Đồ dùng sạch bóng như mới\n• Sử dụng đơn giản, tiện lợi",
+      "ingredients": "Sodium hydroxide, SLES, LAS, Calcium Carbonate, Nước, Hương Liệu, Phụ Gia",
+      "storage": "Tránh xa tầm tay trẻ em và đậy nắp sau khi dùng.",
+      "warnings": "• Tránh xa tầm tay trẻ em\n• Đậy nắp sau khi dùng",
+      "specifications": {
+        "Chất hoạt động bề mặt": "12%",
+        "Độ pH": "9-11"
+      },
+      "viewCount": 1937,
+      "isFeatured": false,
+      "inStock": true
+    },
+    {
+      "id": "nuoc-lau-san-da-nang-mau-hong-4kg-zifat-999",
+      "name": "Nước Lau Sàn Đa Năng Màu Hồng 4kg - ZIFAT 999",
+      "description": "Nước Lau Sàn Đa Năng Màu Hồng 4kg - ZIFAT 999",
+      "detailedDescription": "Nước Lau Sàn Đa Năng Màu Hồng 4kg - ZIFAT 999",
+      "image": "/product-images/nuoc-lau-san-da-nang-mau-hong-4kg-zifat-999.jpg",
+      "images": ["/product-images/nuoc-lau-san-da-nang-mau-hong-4kg-zifat-999.jpg"],
+      "price": null,
+      "volume": "4kg",
+      "category": "multi-purpose-cleaner",
+      "tags": ["Nước Lau Sàn", "Đa Năng", "Màu Hồng", "4Kg"],
+      "features": [
+        "Nước lau sàn đa năng",
+        "Màu hồng dễ nhận biết",
+        "Dung tích lớn 4kg",
+        "Tiết kiệm và hiệu quả"
+      ],
+      "usage": "Sử dụng để lau sàn và các bề mặt khác một cách đa năng.",
+      "benefits": "• Lau sàn hiệu quả\n• Màu hồng dễ nhận biết\n• Dung tích lớn 4kg tiết kiệm\n• Sản phẩm đa năng tiện lợi",
+      "ingredients": null,
+      "storage": null,
+      "warnings": null,
+      "viewCount": 770,
+      "isFeatured": false,
+      "inStock": true
+    }
+  ],
+  "combos": [
+    {
+      "id": "drain-bio-combo",
+      "name": "Combo Chất Thông Cống + Bột Vi Sinh",
+      "shortName": "Combo Thông Cống",
+      "description": "Kết hợp chất thông cống và bột vi sinh để duy trì đường ống sạch sẽ và tiết kiệm chi phí.",
+      "detailedDescription": "Combo hoàn hảo cho việc bảo dưỡng hệ thống thoát nước. Chất thông cống giúp làm sạch tức thì, bột vi sinh duy trì môi trường sạch lâu dài.",
+      "image": "/blog-images/drain-powder.jpg",
+      "originalPrice": "110.000",
+      "price": "99.000",
+      "savings": "11.000",
+      "category": "combo",
+      "tags": ["Combo", "Thông Cống", "Vi Sinh", "Tiết Kiệm"],
+      "products": [
+        {
+          "id": "drain-cleaner-super-strong-zifat999",
+          "quantity": 1
+        },
+        {
+          "id": "drain-powder-zifat999",
+          "quantity": 1
+        }
+      ],
+      "features": [
+        "Tiết kiệm 11.000 VNĐ",
+        "Giải pháp hoàn chỉnh",
+        "Hiệu quả lâu dài",
+        "Thân thiện môi trường"
+      ],
+      "isFeatured": true,
+      "inStock": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "drain-cleaner",
+      "name": "Chất Thông Cống, WC",
+      "description": "Sản phẩm thông cống chuyên nghiệp, hiệu quả cao"
+    },
+    {
+      "id": "multi-purpose-cleaner",
+      "name": "Chất Tẩy Rửa Đa Năng",
+      "description": "Chất tẩy rửa đa năng cho mọi bề mặt"
+    },
+    {
+      "id": "laundry",
+      "name": "Nước Giặt, Ủi Quần Áo",
+      "description": "Sản phẩm chăm sóc quần áo chuyên nghiệp"
+    },
+    {
+      "id": "dishwashing",
+      "name": "Nước Rửa Chén",
+      "description": "Nước rửa chén chuyên nghiệp, an toàn thực phẩm"
+    },
+    {
+      "id": "pesticide",
+      "name": "Thuốc Diệt Côn Trùng",
+      "description": "Thuốc diệt côn trùng hiệu quả, an toàn"
+    },
+    {
+      "id": "polish",
+      "name": "Dầu Làm Bóng",
+      "description": "Dầu làm bóng chuyên dụng cho nhiều bề mặt"
+    },
+    {
+      "id": "automotive",
+      "name": "Sản Phẩm Cho Ô Tô",
+      "description": "Chăm sóc xe hơi chuyên nghiệp"
+    },
+    {
+      "id": "probiotics",
+      "name": "Men Vi Sinh",
+      "description": "Men vi sinh xử lý môi trường sinh học"
+    },
+    {
+      "id": "deodorizer",
+      "name": "Khử Mùi",
+      "description": "Sản phẩm khử mùi hiệu quả cho mọi không gian"
+    },
+    {
+      "id": "bathroom-cleaner",
+      "name": "Tẩy Rửa Nhà Tắm, Bồn Cầu",
+      "description": "Sản phẩm tẩy rửa chuyên dụng cho nhà tắm và bồn cầu"
+    },
+    {
+      "id": "combo",
+      "name": "Combo Tiết Kiệm",
+      "description": "Các gói sản phẩm kết hợp với giá ưu đãi"
+    }
+  ]
+}
