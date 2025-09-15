@@ -226,9 +226,9 @@ const Certifications = () => {
                             Lời Cam Kết Chất Lượng
                         </h3>
                         <p className="text-lg mb-6 max-w-3xl mx-auto">
-                            "Chúng tôi cam kết mang đến những sản phẩm chất lượng cao nhất, 
+                            &quot;Chúng tôi cam kết mang đến những sản phẩm chất lượng cao nhất, 
                             an toàn cho sức khỏe và thân thiện với môi trường. 
-                            Mỗi sản phẩm Zifat 999 đều trải qua quy trình kiểm định nghiêm ngặt."
+                            Mỗi sản phẩm Zifat 999 đều trải qua quy trình kiểm định nghiêm ngặt.&quot;
                         </p>
                         <div className="flex items-center justify-center">
                             <div className="text-center">

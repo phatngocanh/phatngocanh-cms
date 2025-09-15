@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
-import ProductsPageClient from './ProductsPageClient';
+
 import productsData from '@/data/products.json';
+
+import ProductsPageClient from './ProductsPageClient';
 
 interface PageProps {
     searchParams: Promise<{ 

@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
-import ProductDetailClient from './ProductDetailClient';
+
 import productsData from '@/data/products.json';
+
+import ProductDetailClient from './ProductDetailClient';
 
 interface ProductPageProps {
     params: Promise<{
@@ -42,5 +44,5 @@ export default async function ProductPage({ params }: ProductPageProps) {
         notFound();
     }
 
-    return <ProductDetailClient product={item} />;
+    return <ProductDetailClient product={item as any} />;
 }

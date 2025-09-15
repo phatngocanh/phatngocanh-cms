@@ -15,7 +15,7 @@ interface Product {
     images?: string[];
     price: string | null;
     originalPrice?: string;
-    unit: string | null;
+    unit?: string | null;
     volume?: string;
     category: string;
     tags: string[];
@@ -41,7 +41,7 @@ interface Combo {
     price: string | null;
     originalPrice: string;
     savings: string;
-    unit: string | null;
+    unit?: string | null;
     category: string;
     tags: string[];
     features: string[];
