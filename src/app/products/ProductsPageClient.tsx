@@ -78,7 +78,14 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
     const [loading, setLoading] = useState(true);
     const [currentPage, setCurrentPage] = useState(1);
     const [searchQuery, setSearchQuery] = useState('');
-    const [selectedCategory, setSelectedCategory] = useState<string>('all');
+    const [selectedCategory, setSelectedCategory] = useState<string>(() => {
+        // Initialize from URL parameters if available
+        if (typeof window !== 'undefined') {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('category') || 'all';
+        }
+        return initialParams?.category || 'all';
+    });
     const [activeTab, setActiveTab] = useState<'combos' | 'products'>('products');
     const [showCategories, setShowCategories] = useState<boolean>(false);
     
@@ -94,21 +101,21 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
         const page = parseInt(searchParams.get('page') || initialParams?.page || '1');
 
         console.log('URL Params Debug:', {
-            'searchParams.get("page")': searchParams.get('page'),
-            'initialParams?.page': initialParams?.page,
-            'final page': page,
-            'current currentPage before update': currentPage
+            'searchParams.get("category")': searchParams.get('category'),
+            'initialParams?.category': initialParams?.category,
+            'final category': category,
+            'current selectedCategory before update': selectedCategory
         });
         
-        // Force update states
-        setActiveTab(tab as 'combos' | 'products');
-        setSelectedCategory(category);
-        setSearchQuery(search);
-        setCurrentPage(page);
+        // Only update if values have changed to prevent infinite loops
+        if (tab !== activeTab) setActiveTab(tab as 'combos' | 'products');
+        if (category !== selectedCategory) setSelectedCategory(category);
+        if (search !== searchQuery) setSearchQuery(search);
+        if (page !== currentPage) setCurrentPage(page);
         
         // Mark that initial mount is complete
         isInitialMount.current = false;
-    }, [searchParams, initialParams, currentPage]);
+    }, [searchParams, initialParams, activeTab, selectedCategory, searchQuery, currentPage]);
 
     useEffect(() => {
         const loadProducts = async () => {
@@ -191,7 +198,8 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
 
     // Get the current category from URL as fallback
     const urlCategory = searchParams.get('category') || initialParams?.category || 'all';
-    const effectiveCategory = selectedCategory === 'all' ? urlCategory : selectedCategory;
+    // eslint-disable-next-line no-negated-condition
+    const effectiveCategory = selectedCategory !== 'all' ? selectedCategory : urlCategory;
     
     // Filter products based on search and category
     const filteredProducts = productData.products.filter(product => {
@@ -206,12 +214,15 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
     });
     
     // Debug: Log filtering info
+    console.log('=== CATEGORY FILTERING DEBUG ===');
     console.log('Current selectedCategory:', selectedCategory);
     console.log('URL category:', urlCategory);
     console.log('Effective category for filtering:', effectiveCategory);
     console.log('Total products:', productData.products.length);
-    console.log('Filtered products:', filteredProducts.length);
+    console.log('Filtered products count:', filteredProducts.length);
+    console.log('Sample products with categories:', productData.products.slice(0, 3).map(p => ({ name: p.name, category: p.category })));
     console.log('Filtered products:', filteredProducts.map(p => ({ name: p.name, category: p.category })));
+    console.log('================================');
 
     // Pagination logic for products
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
