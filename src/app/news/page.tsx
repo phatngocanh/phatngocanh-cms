@@ -1,7 +1,8 @@
-import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import NewsPageClient from './NewsPageClient';
+import Navigation from '@/components/Navigation';
 import articlesData from '@/data/articles.json';
+
+import NewsPageClient from './NewsPageClient';
 
 // Add metadata for SEO
 export const metadata = {

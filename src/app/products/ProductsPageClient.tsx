@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
@@ -17,7 +17,7 @@ interface Product {
     images?: string[];
     price: string | null;
     originalPrice?: string | null;
-    unit: string | null;
+    unit?: string | null;
     volume?: string | null;
     category: string;
     tags: string[];
@@ -37,7 +37,7 @@ interface Combo {
     price: string | null;
     originalPrice: string;
     savings: string;
-    unit: string | null;
+    unit?: string | null;
     category: string;
     tags: string[];
     features: string[];
@@ -108,7 +108,7 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
         
         // Mark that initial mount is complete
         isInitialMount.current = false;
-    }, [searchParams, initialParams]);
+    }, [searchParams, initialParams, currentPage]);
 
     useEffect(() => {
         const loadProducts = async () => {
@@ -157,7 +157,7 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
             setSearchQuery('');
             setSelectedCategory('all');
         }
-    }, [activeTab]);
+    }, [activeTab, currentPage]);
 
     if (loading) {
         return (
@@ -191,7 +191,7 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
 
     // Get the current category from URL as fallback
     const urlCategory = searchParams.get('category') || initialParams?.category || 'all';
-    const effectiveCategory = selectedCategory !== 'all' ? selectedCategory : urlCategory;
+    const effectiveCategory = selectedCategory === 'all' ? urlCategory : selectedCategory;
     
     // Filter products based on search and category
     const filteredProducts = productData.products.filter(product => {
@@ -422,12 +422,12 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
                                                 </svg>
                                                 <span className="font-medium text-gray-900">
-                                                    {selectedCategory !== 'all' ? (
+                                                    {selectedCategory === 'all' ? (
+                                                        <span className="text-gray-500">Tất cả sản phẩm</span>
+                                                    ) : (
                                                         <span className="px-2 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">
                                                             {productData.categories.find(cat => cat.id === selectedCategory)?.name}
                                                         </span>
-                                                    ) : (
-                                                        'Danh mục'
                                                     )}
                                                 </span>
                                             </div>

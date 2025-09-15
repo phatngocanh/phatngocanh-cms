@@ -1,6 +1,6 @@
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import Certifications from "@/components/Certifications";
+import Footer from "@/components/Footer";
+import Navigation from "@/components/Navigation";
 
 export default function CertificationsPage() {
     return (

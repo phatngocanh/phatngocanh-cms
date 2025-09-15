@@ -18,7 +18,7 @@ export default function AboutPage() {
     const counter64 = useCountingNumber(64, 1500, marketAnimation.visibleItems[0]);
     const counter80 = useCountingNumber(80, 1500, marketAnimation.visibleItems[0]);
     const counter2000 = useCountingNumber(2000, 1500, goalsAnimation.visibleItems[0]);
-    const counter20000 = useCountingNumber(20000, 1500, goalsAnimation.visibleItems[1]);
+    const counter20000 = useCountingNumber(20000, 1500, goalsAnimation.visibleItems[1])
     const counter50000 = useCountingNumber(50000, 1500, goalsAnimation.visibleItems[2]);
     const counter5000 = useCountingNumber(5000, 1500, goalsAnimation.visibleItems[3]);
     const counter5million = useCountingNumber(5, 1500, mainGoalAnimation.isVisible);
