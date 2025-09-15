@@ -14,7 +14,7 @@ interface Product {
     image: string;
     images?: string[];
     price: string | null;
-    originalPrice?: string;
+    originalPrice?: string | null;
     unit?: string | null;
     volume?: string;
     category: string;
