@@ -78,14 +78,7 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
     const [loading, setLoading] = useState(true);
     const [currentPage, setCurrentPage] = useState(1);
     const [searchQuery, setSearchQuery] = useState('');
-    const [selectedCategory, setSelectedCategory] = useState<string>(() => {
-        // Initialize from URL parameters if available
-        if (typeof window !== 'undefined') {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get('category') || 'all';
-        }
-        return initialParams?.category || 'all';
-    });
+    const [selectedCategory, setSelectedCategory] = useState<string>('all');
     const [activeTab, setActiveTab] = useState<'combos' | 'products'>('products');
     const [showCategories, setShowCategories] = useState<boolean>(false);
     
@@ -107,15 +100,17 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
             'current selectedCategory before update': selectedCategory
         });
         
-        // Only update if values have changed to prevent infinite loops
-        if (tab !== activeTab) setActiveTab(tab as 'combos' | 'products');
-        if (category !== selectedCategory) setSelectedCategory(category);
-        if (search !== searchQuery) setSearchQuery(search);
-        if (page !== currentPage) setCurrentPage(page);
+        // Update states from URL parameters
+        setActiveTab(tab as 'combos' | 'products');
+        if (category !== selectedCategory) {
+            setSelectedCategory(category);
+        }
+        setSearchQuery(search);
+        setCurrentPage(page);
         
         // Mark that initial mount is complete
         isInitialMount.current = false;
-    }, [searchParams, initialParams, activeTab, selectedCategory, searchQuery, currentPage]);
+    }, [searchParams, initialParams, selectedCategory]);
 
     useEffect(() => {
         const loadProducts = async () => {
@@ -131,6 +126,15 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
 
         loadProducts();
     }, []);
+
+    // Initialize from URL parameters after component mounts
+    useEffect(() => {
+        if (!loading && productData.categories.length > 0) {
+            const urlCategory = searchParams.get('category') || initialParams?.category || 'all';
+            console.log('Initializing category from URL:', urlCategory);
+            setSelectedCategory(urlCategory);
+        }
+    }, [loading, productData.categories.length, searchParams, initialParams]);
 
     // Update URL when state changes
     const updateURL = (newParams: Record<string, string | number>) => {
@@ -164,7 +168,7 @@ const ProductsPageClient = ({ initialParams }: ProductsPageClientProps) => {
             setSearchQuery('');
             setSelectedCategory('all');
         }
-    }, [activeTab, currentPage]);
+    }, [activeTab]);
 
     if (loading) {
         return (
