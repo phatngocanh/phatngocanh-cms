@@ -22,7 +22,7 @@ const CompanyIntro = () => {
                     className={`text-center mb-12 scroll-animate ${headerVisible ? 'animate-in' : ''}`}
                 >
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        PHAT NGOC ANH CO,.Ltd - Zifat 999
+                        Giới Thiệu Công Ty Phát Ngọc Anh
                     </h2>
                     <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto mb-6"></div>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -42,10 +42,10 @@ const CompanyIntro = () => {
                                 Kính Chào Quý Khách Hàng
                             </h3>
                             <p className="text-gray-700 leading-relaxed mb-4">
-                                <strong className="text-blue-600">CÔNG TY TNHH HÓA PHẨM PHÁT NGỌC ANH</strong> gửi lời cảm ơn sâu sắc đến quý khách hàng đã tin tưởng và sử dụng sản phẩm hóa mỹ phẩm trong thời gian qua.
+                                <strong className="text-blue-600">CÔNG TY TNHH HÓA PHẨM PHÁT NGỌC ANH</strong> gửi lời cảm ơn sâu sắc đến quý khách hàng. Chúng tôi cảm ơn sự tin tưởng và sử dụng sản phẩm hóa mỹ phẩm trong thời gian qua.
                             </p>
                             <p className="text-gray-700 leading-relaxed">
-                                Với dây chuyền công nghệ hiện đại, quy mô nhà xưởng lớn và đội ngũ công nhân lành nghề, chúng tôi tự tin mang đến cho khách hàng các sản phẩm có <strong className="text-green-600">chất lượng tốt nhất</strong> cùng giá thành phải chăng.
+                                Với dây chuyền công nghệ hiện đại, chúng tôi có quy mô nhà xưởng lớn. Đội ngũ công nhân lành nghề giúp chúng tôi tự tin. Chúng tôi mang đến cho khách hàng các sản phẩm có <strong className="text-green-600">chất lượng tốt nhất</strong> cùng giá thành phải chăng.
                             </p>
                         </div>
                     </div>
@@ -89,17 +89,17 @@ const CompanyIntro = () => {
                 >
                     <div className={`bg-white rounded-xl p-6 shadow-lg text-center border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-500 hover:scale-105 scroll-animate ${achievementsVisible[0] ? 'animate-in' : ''}`}>
                         <div className="text-4xl mb-3">🏆</div>
-                        <h4 className="text-lg font-semibold mb-2 text-gray-900">Hàng Việt Nam Chất Lượng Cao</h4>
+                        <h4 className="text-lg font-semibold mb-2 text-gray-900">Chứng Nhận Chất Lượng Cao</h4>
                         <p className="text-gray-600 text-sm">Được Bộ Khoa học và Công nghệ công nhận</p>
                     </div>
                     <div className={`bg-white rounded-xl p-6 shadow-lg text-center border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-500 hover:scale-105 scroll-animate scroll-delay-100 ${achievementsVisible[1] ? 'animate-in' : ''}`}>
                         <div className="text-4xl mb-3">💪</div>
-                        <h4 className="text-lg font-semibold mb-2 text-gray-900">Thương Hiệu Mạnh</h4>
+                        <h4 className="text-lg font-semibold mb-2 text-gray-900">Thương Hiệu Uy Tín</h4>
                         <p className="text-gray-600 text-sm">Phát triển bền vững trên toàn quốc</p>
                     </div>
                     <div className={`bg-white rounded-xl p-6 shadow-lg text-center border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-500 hover:scale-105 scroll-animate scroll-delay-200 ${achievementsVisible[2] ? 'animate-in' : ''}`}>
                         <div className="text-4xl mb-3">🌟</div>
-                        <h4 className="text-lg font-semibold mb-2 text-gray-900">Tự Hào Thương Hiệu Việt</h4>
+                        <h4 className="text-lg font-semibold mb-2 text-gray-900">Giải Thưởng Cộng Đồng</h4>
                         <p className="text-gray-600 text-sm">Vì Cộng Đồng - Năm 2020</p>
                     </div>
                 </div>

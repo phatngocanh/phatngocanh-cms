@@ -32,8 +32,8 @@ const Navigation = () => {
                                 />
                             </div>
                             <div className="hidden sm:block">
-                                <h1 className="text-xl font-bold text-gray-900">Zifat 999</h1>
-                                <p className="text-xs text-gray-600">Phát Ngọc Anh</p>
+                                <h1 className="text-lg font-bold text-gray-900 leading-tight">Zifat 999 - Chất Tẩy Rửa Chuyên Nghiệp</h1>
+                                <p className="text-xs text-gray-500">Phát Ngọc Anh Chemical</p>
                             </div>
                         </Link>
                     </div>

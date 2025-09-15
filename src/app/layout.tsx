@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-    title: "Công Ty TNHH Hóa Phẩm Phát Ngọc Anh - Zifat 999 | Chất Tẩy Rửa Chuyên Nghiệp",
-    description: "Công ty chuyên sản xuất và phân phối các sản phẩm hóa chất tẩy rửa chuyên nghiệp: chất thông cống, chất tẩy rửa đa năng, nước rửa chén. Thương hiệu Zifat 999 uy tín, chất lượng cao.",
+    title: "Zifat 999 - Chất Tẩy Rửa Chuyên Nghiệp | Phát Ngọc Anh",
+    description: "Chuyên sản xuất hóa chất tẩy rửa chuyên nghiệp: chất thông cống, tẩy rửa đa năng, nước rửa chén. Thương hiệu Zifat 999 uy tín, chất lượng cao.",
     keywords: "hóa phẩm, chất tẩy rửa, thông cống, nước rửa chén, Zifat 999, Phát Ngọc Anh, hóa chất công nghiệp",
     authors: [{ name: "Công Ty TNHH Hóa Phẩm Phát Ngọc Anh" }],
     creator: "Công Ty TNHH Hóa Phẩm Phát Ngọc Anh",
@@ -19,16 +19,16 @@ export const metadata = {
     robots: "index, follow",
     openGraph: {
         type: "website",
-        url: "https://phatngocanh.com",
-        title: "Công Ty TNHH Hóa Phẩm Phát Ngọc Anh - Zifat 999",
-        description: "Chuyên sản xuất và phân phối các sản phẩm hóa chất tẩy rửa chuyên nghiệp chất lượng cao",
+        url: "https://phatngocanh-cms.vercel.app",
+        title: "Zifat 999 - Chất Tẩy Rửa Chuyên Nghiệp | Phát Ngọc Anh",
+        description: "Chuyên sản xuất hóa chất tẩy rửa chuyên nghiệp: chất thông cống, tẩy rửa đa năng, nước rửa chén. Thương hiệu Zifat 999 uy tín, chất lượng cao.",
         siteName: "Phát Ngọc Anh Chemical",
         locale: "vi_VN",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Công Ty TNHH Hóa Phẩm Phát Ngọc Anh - Zifat 999",
-        description: "Chuyên sản xuất và phân phối các sản phẩm hóa chất tẩy rửa chuyên nghiệp chất lượng cao",
+        title: "Zifat 999 - Chất Tẩy Rửa Chuyên Nghiệp | Phát Ngọc Anh",
+        description: "Chuyên sản xuất hóa chất tẩy rửa chuyên nghiệp: chất thông cống, tẩy rửa đa năng, nước rửa chén. Thương hiệu Zifat 999 uy tín, chất lượng cao.",
     },
 };
 
