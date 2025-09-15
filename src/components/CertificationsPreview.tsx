@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const CertificationsPreview = () => {
     const [selectedCertificate, setSelectedCertificate] = useState<any>(null);
